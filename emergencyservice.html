@@ -99,69 +99,70 @@
     <section id="selectvehiclemobile">
         <div class="container-fluid heading">
             <h4><span>Select Type Of</span> Vehicle <span></span></h4>
-           
+
         </div>
         <div class="container text-center">
             <div class="radio-tile-group">
-            <div class="row" id="vehiclerow">
-                <div class="col" id="vehiclecol">
-                    <div class="input-container">
-                        <input id="bike" class="radio-button" type="radio" name="radio" />
-                        <div class="radio-tile">
-                            <img src="images/2-wh.svg" class="" alt="" width="100px">
-                            <label for="bike" class="radio-tile-label">2 Wheeler</label>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col" id="vehiclecol">
-                    <div class="input-container">
-                        <input id="drive" class="radio-button" type="radio" name="radio" />
-                        <div class="radio-tile">
-                            <div class="icon car-icon">
-                                <img src="images/3-wh.svg" class="" width="90px" height="80px" alt="">
-    
+                <div class="row" id="vehiclerow">
+                    <div class="col" id="vehiclecol">
+                        <div class="input-container">
+                            <input id="bike" class="radio-button" type="radio" name="radio" />
+                            <div class="radio-tile">
+                                <img src="images/2-wh.svg" class="" alt="" width="100px">
+                                <label for="bike" class="radio-tile-label">2 Wheeler</label>
                             </div>
-                            <label for="drive" class="radio-tile-label pt-3">3 Wheeler</label>
+                        </div>
+
+                    </div>
+                    <div class="col" id="vehiclecol">
+                        <div class="input-container">
+                            <input id="drive" class="radio-button" type="radio" name="radio" />
+                            <div class="radio-tile">
+                                <div class="icon car-icon">
+                                    <img src="images/3-wh.svg" class="" width="90px" height="80px" alt="">
+
+                                </div>
+                                <label for="drive" class="radio-tile-label pt-3">3 Wheeler</label>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row" id="vehiclerow">
-                <div class="col" id="vehiclecol">
+                <div class="row" id="vehiclerow">
+                    <div class="col" id="vehiclecol">
 
-                    <div class="input-container">
-                        <input id="walk" class="radio-button" type="radio" name="radio" />
-                        <div class="radio-tile">
-                            <div class="icon walk-icon">
-                                <img src="https://img.icons8.com/dusk/64/000000/car.png" width="60px" height="60px" />
-                            </div><br>
-                            <label for="walk" class="radio-tile-label pt-2">4 Wheeler</label>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col s2"id="vehiclecol" >
-
-                  
-                <div class="input-container">
-                    <input id="fly" class="radio-button" type="radio" name="radio" />
-                    <div class="radio-tile">
-                        <div class="icon fly-icon">
-                            <img src="images/more-wh.svg" class="" width="120px" height="80px" alt="">
+                        <div class="input-container">
+                            <input id="walk" class="radio-button" type="radio" name="radio" />
+                            <div class="radio-tile">
+                                <div class="icon walk-icon">
+                                    <img src="https://img.icons8.com/dusk/64/000000/car.png" width="60px"
+                                        height="60px" />
+                                </div><br>
+                                <label for="walk" class="radio-tile-label pt-2">4 Wheeler</label>
+                            </div>
                         </div>
 
-                        <label for="fly" class="radio-tile-label">Other</label>
+                    </div>
+                    <div class="col s2" id="vehiclecol">
+
+
+                        <div class="input-container">
+                            <input id="fly" class="radio-button" type="radio" name="radio" />
+                            <div class="radio-tile">
+                                <div class="icon fly-icon">
+                                    <img src="images/more-wh.svg" class="" width="120px" height="80px" alt="">
+                                </div>
+
+                                <label for="fly" class="radio-tile-label">Other</label>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-
-                </div>
-            </div>
             </div>
         </div>
 
     </section>
-   
+
 
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -298,32 +299,50 @@
         </div>
     </section>
 
-  
+
 
     <section id="locationbox">
         <div class="services">
             <h4><span>Confirm Your </span>Location</h4>
         </div>
-       <div class="container-fluid heading">
-        <h4><span>Confirm</span> Location<span></span></h4>
-       
-    </div>
+        <div class="container-fluid heading">
+            <h4><span>Confirm</span> Location<span></span></h4>
+
+        </div>
 
         <div class="container-fluid contactus">
             <div class="container">
-                <div class="row">
+                <div class="row" id="searchbox">
                     <div class="searchbox">
                         <button class="btn-menu btn-danger">
                             Auto Detect
                         </button>
                         <input id="search" type="text" placeholder="  Enter Your Location" name="search" class="search">
-                        <button class="btn-search">
-                        </button>
+
+                    </div>
+                </div>
+                    <div class="row" id="searchboxmobile">
+                        <div class="searchbox2">
+                            <button class="btn-menu">
+                                <i class="fa fa-map-marker" aria-hidden="true" style="color:red;height:10px;width:20px"></i>
+                            </button>
+                            <input id="search" type="text" placeholder="Search..." name="search" class="search">
+                            <button class="btn-search">
+                                <img src="https://img.icons8.com/cotton/24/000000/search--v2.png">
+                            </button>
+                        </div>
+       
                     </div>
 
-                </div>
+                    <div class="row" id="autodetect">
+                        <button class="btn btn-success btn-lg" type="submit"><i class="fa fa-check"
+                            aria-hidden="true"></i> Auto Detect</button>
+                    </div>
+
+                
             </div>
         </div>
+
     </section>
     <div class="submitbutton">
         <a href="garagelist.html"> <button class="btn btn-primary btn-block submit mx-auto">Submit</button></a>

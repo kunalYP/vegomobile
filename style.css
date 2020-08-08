@@ -1999,6 +1999,17 @@ padding-left: 10px;
   border: 1px;
 
 }
+#searchbox{
+  display:none;
+}
+.searchbox2{
+  top:0px;
+}
+#autodetect{
+  padding-top: 20px;
+  justify-content: center;
+}
+
 }
 
 
@@ -2235,5 +2246,8 @@ padding-left: 10px;
 .heading{
   display: none;
 }
-
+#searchboxmobile
+{
+  display:none;
+}
 }
