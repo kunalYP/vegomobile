@@ -482,7 +482,11 @@ font: 1em sans-serif;
   color:red;
   font-weight: 900;
 }
-
+.deleverycharge{
+ 
+  color:rgb(0, 4, 255);
+  font-weight: 900;
+}
 
 button img {
   transition: transform .25s;
@@ -2010,6 +2014,73 @@ padding-left: 10px;
   justify-content: center;
 }
 
+
+
+#garagescardsrow {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0.1rem;
+  padding-bottom: 0;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  border: 2px solid rgb(235, 232, 232);
+  box-shadow: 2px 2px 2px rgb(232, 240, 241);
+  padding-top: 5px;
+}
+
+.garage-cont-btm-one {
+
+ 
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.garage-cont-btm-two {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: -20px;   
+
+}
+#distance{
+  margin-top: -10px;
+}
+.garage-cont-btm-two h3 {
+
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.garage-cont-btm-two p {
+  font-size: 0.7rem;
+}
+
+.garage-cont-btm-one img {
+  margin-left: -16px;
+  height: 120px;
+  width: 200px;
+}
+
+.seeinfo {
+  margin-top: 20px;
+  text-align: center;
+  padding: 0;
+  font-size: 3rem;
+  margin-bottom: 2px;
+  font-weight: 500;
+  color: white;
+  background-color: #A60523;
+  width: auto;
+
+
+  } 
+
+
+
 }
 
 
@@ -2249,5 +2320,11 @@ padding-left: 10px;
 #searchboxmobile
 {
   display:none;
+}
+#autodetect{
+  display:none;
+}
+#garagescardsmobile{
+  display: none;
 }
 }
