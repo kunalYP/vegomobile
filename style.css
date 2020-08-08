@@ -15,6 +15,9 @@
 #top4garages{
   padding-top: 70px;
 }
+#selectvehicle{
+  padding-top: 90px;
+}
 .inner{
     overflow: hidden;
 }
@@ -338,20 +341,6 @@ div.card {
 
 
 
-.radio-tile-group {
-  display: -webkit-box;
-  display: flex;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-          justify-content: center;
-}
-.radio-tile-group .input-container {
-  position: relative;
-  height: 9rem;
-  width: 9rem;
-  margin: 4rem;
-  margin-top: 0px;
-}
 .radio-tile-group .input-container .radio-button {
   opacity: 0;
   position: absolute;
@@ -1961,8 +1950,54 @@ padding-left: 10px;
   margin-bottom: 2px;
   font-weight: 500;
 } 
+.services{
+  display: none;
+}
+#selectvehicle{
+  padding-top: 30px;
+}
+
+#selectvehicle
+{
+  display: none;
+}
+
+.radio-tile-group {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+.radio-tile-group .input-container {
+  position: relative;
+  height: 9rem;
+  width: 9rem;
 
 }
+#row1{
+  padding-top:30px;
+}
+#row2{
+  padding: 20px;
+}
+#selectvehiclemobile
+{
+  padding-top: 10px;
+}
+
+.submitbutton{
+  padding: 20px;
+
+  
+}
+
+
+}
+
+
+
+
 .mobilefooter{
   display:flex;
   left:0;
@@ -1975,6 +2010,12 @@ padding-left: 10px;
   justify-content: space-between;
   font-family: 'Roboto', sans-serif;
   margin-top: 0;
+}
+
+.submitbutton{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -2165,6 +2206,27 @@ padding-left: 10px;
 }
 #mobilefooter
 {
+  display: none;
+}
+#selectvehiclemobile
+{
+  display: none;
+}
+.radio-tile-group {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+.radio-tile-group .input-container {
+  position: relative;
+  height: 9rem;
+  width: 9rem;
+  margin: 4rem;
+  margin-top: 0px;
+}
+.heading{
   display: none;
 }
 
