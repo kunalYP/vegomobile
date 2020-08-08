@@ -1988,11 +1988,17 @@ padding-left: 10px;
 
 .submitbutton{
   padding: 20px;
-
-  
 }
 
+#vehiclerow{
+  padding-left:1px;
+}
+#vehiclecol{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px;
 
+}
 }
 
 
