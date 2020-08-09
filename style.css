@@ -1819,8 +1819,8 @@ padding-top: 3%;
   border-style: outset;
   border-right: none;
 }
-.scroll{       
-  margin-top: 30px;
+.horizontalscrolling{       
+  margin-top: 30px ;
 }
 .horizontal-scroll {
   display: block;
