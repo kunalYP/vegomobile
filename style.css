@@ -1820,7 +1820,7 @@ padding-top: 3%;
   border-right: none;
 }
 .scroll{       
-  margin: auto;
+  margin-top: 30px;
 }
 .horizontal-scroll {
   display: block;
@@ -1991,7 +1991,7 @@ padding-left: 10px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-left: -20px;   
+  margin-left: -30px;   
 
 }
 #distance{
@@ -1999,8 +1999,8 @@ padding-left: 10px;
 }
 .garage-cont-btm-two h3 {
 
-  font-size: 1.2rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .garage-cont-btm-two p {
@@ -2008,13 +2008,13 @@ padding-left: 10px;
 }
 
 .garage-cont-btm-one img {
-  margin-left: -16px;
-  height: 120px;
+  margin-left: -30px;
+  height: 110px;
   width: 200px;
 }
 
 .seeinfo {
-  margin-top: 10px;
+  margin-top: 5px;
   text-align: center;
   padding: 0;
   font-size: 3rem;
@@ -2041,7 +2041,7 @@ padding-left: 10px;
   display: flex;
   flex-wrap: nowrap;
   padding: 0.1rem;
-  padding-bottom: 0;
+  padding-bottom: 8px;
   width: 100%;
   margin: auto;
   justify-content: center;
@@ -2071,9 +2071,9 @@ padding-left: 10px;
   margin-top: -10px;
 }
 .showroom-cont-btm-two h3 {
-
-  font-size: 1.2rem;
-  font-weight: 500;
+margin-top: -10px;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .showroom-cont-btm-two p {
@@ -2082,9 +2082,13 @@ padding-left: 10px;
 
 .showroom-cont-btm-one img {
   margin-left: -30px;
-  height: 100px;
+  height: 90px;
   width: 200px;
 }
+
+/* new showroom card concept*/
+
+
 
 }
 
@@ -2180,12 +2184,16 @@ padding-left: 10px;
   font-weight: 900;
 }
 #distanceshowroom{
-  margin-top: -18px;
+  margin-top: -15px;
 }
 
 #brandimage{
+
   height: 15px;
   width: 50px;
+}
+#brandimageshowroom{
+  padding-top: 2px;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
