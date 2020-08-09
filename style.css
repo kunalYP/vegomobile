@@ -1774,6 +1774,7 @@ color: #fd1111;
 #bigfooter{
   display: none;
 }
+
 #mySidebar {
   position: fixed;
   left: 0;
@@ -1811,49 +1812,6 @@ padding-top: 3%;
   border: 1px;
   border-style: outset;
   border-right: none;
-}
-.servicetext{
-  padding-top: 20px;
-}
-#top4showroomsmobile{
-  padding-top:33px;
-}
-#top4garagesmobile{
-  padding-top:33px;
-}
-.heading h4 {
-  position: relative;
-  padding: 0;
-  color: #f91942;
-  line-height: 40px;
-  letter-spacing: 0.3px;
-  font-size: 24px;
-  font-weight: 500 !important;
-  text-align: center;
-  text-transform: none;
-  margin-bottom: 20px;
-}
-.heading h4:before {
-  content: "";
-  width: 60px;
-  height: 3px;
-  background: #f91942;
-  position: absolute;
-  left: 0px;
-  bottom: -10px;
-  right: 0;
-  margin: 0 auto;
-}
-.heading h4 span {
-  font-weight: 700;
-  padding-bottom: 5px;
-  color: #2f2f2f;
-}
-.heading p {
-  margin-bottom: 30px;
-
- text-align: center;
- font-size: 15px;
 }
 .scroll{       
   margin: auto;
@@ -1980,24 +1938,7 @@ padding-left: 10px;
   width: 9rem;
 
 }
-#row1{
-  padding-top:30px;
-}
-#row2{
-  padding: 20px;
-}
-#selectvehiclemobile
-{
-  padding-top: 10px;
-}
 
-.submitbutton{
-  padding: 20px;
-}
-
-#vehiclerow{
-  padding-left:1px;
-}
 #vehiclecol{
   padding-top: 10px;
   padding-bottom: 10px;
@@ -2080,11 +2021,69 @@ padding-left: 10px;
 
   } 
 
-
-
 }
 
+#row1{
+  padding-top:30px;
+}
+#row2{
+  padding: 20px;
+}
+#selectvehiclemobile
+{
+  padding-top: 10px;
+}
 
+.submitbutton{
+  padding: 20px;
+}
+
+#vehiclerow{
+  padding-left:1px;
+}
+.servicetext{
+  padding-top: 20px;
+}
+#top4showroomsmobile{
+  padding-top:33px;
+}
+#top4garagesmobile{
+  padding-top:33px;
+}
+.heading h4 {
+  position: relative;
+  padding: 0;
+  color: #f91942;
+  line-height: 40px;
+  letter-spacing: 0.3px;
+  font-size: 24px;
+  font-weight: 500 !important;
+  text-align: center;
+  text-transform: none;
+  margin-bottom: 20px;
+}
+.heading h4:before {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: #f91942;
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+  right: 0;
+  margin: 0 auto;
+}
+.heading h4 span {
+  font-weight: 700;
+  padding-bottom: 5px;
+  color: #2f2f2f;
+}
+.heading p {
+  margin-bottom: 30px;
+
+ text-align: center;
+ font-size: 15px;
+}
 
 
 .mobilefooter{

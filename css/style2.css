@@ -630,3 +630,68 @@ input{
    height: 10px;
  }
  
+
+ .heading h4 {
+  position: relative;
+  padding: 0;
+  color: #f91942;
+  line-height: 40px;
+  letter-spacing: 0.3px;
+  font-size: 24px;
+  font-weight: 500 !important;
+  text-align: center;
+  text-transform: none;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.heading h4:before {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: #f91942;
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+  right: 0;
+  margin: 0 auto;
+}
+.heading h4 span {
+  font-weight: 700;
+  padding-bottom: 5px;
+  color: #2f2f2f;
+}
+.heading p {
+  margin-bottom: 30px;
+
+ text-align: center;
+ font-size: 15px;
+}
+
+ @media only screen and (max-width: 600px) {
+   #comparevehiclesdesktop{
+     display: none;
+   }
+
+   #productdesktop{
+     display:none;
+   }
+
+ }
+ @media only screen and (min-width: 600px) {
+   #mobilenavbar{
+     display: none;
+   }
+   .heading{
+     display:none;
+   }
+   #productmobile{
+    display:none;
+  }
+ }
+
+
+ .addvehicle{
+   padding-top: 10px;
+   color: rgba(255, 0, 0, 0.87);
+   font-size : 100px;
+ }

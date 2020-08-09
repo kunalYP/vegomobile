@@ -19,12 +19,31 @@
 </head>
 
 <body>
-    <div class="container-fluid services pt-4">
-        <h4><span>Compare Multiple</span> Vehicles <span></span></h4>
-        <p> We cater an array of high-end products for Education and Government Sector </p>
-</div>
+    <header id="mobilenavbar">
+        <!-- Just an image -->
+        <nav class="navbar navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
+                onclick="w3_open()" aria-label="Toggle navigation" style="border:none;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" width="85" height="45" alt="">
+            </a>
+        </nav>
+    </header>
+    <section id="comparevehiclesdesktop">
+        <div class="container-fluid services pt-4">
+            <h4><span>Compare Multiple</span> Vehicles <span></span></h4>
+            <p> We cater an array of high-end products for Education and Government Sector </p>
+        </div>
+    
+    </section>
+    <div class="container-fluid heading">
+        <h4><span>Compare</span> Vehicles <span></span></h4>
+  
+    </div>
 
-    <section class="features-icons bg-info text-center pb-4">
+    <section class="features-icons bg-info text-center pb-4" id="comparevehiclesdesktop">
         <br>
         <div class="container-fluid garagecontact">
             <div class="container">
@@ -69,7 +88,7 @@
     <br><br>
     <section class="cd-products-comparison-table">
         <header>
-      
+
 
             <div class="actions">
                 <a href="#0" class="reset btn btn-danger" class="reset">Reset</a>
@@ -92,13 +111,13 @@
                     <li>Ethernet Input</li>
                     <li>USB Input</li>
                     <li>Scart Input</li>
-              
+
                 </ul>
             </div> <!-- .features -->
 
             <div class="cd-products-wrapper">
                 <ul class="cd-products-columns">
-                    <li class="product">
+                    <li class="product" id="productdesktop">
                         <div class="top-info">
                             <div class="check"></div>
                             <img src="images/car1.jpg" alt="product image">
@@ -107,14 +126,14 @@
 
                         <ul class="cd-features-list">
                             <li>₹90,000</li>
-                            <li>    
+                            <li>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                             </li>
-                        
+
                             <li>Feature 2</li>
                             <li>Feature 3</li>
                             <li>Feature 4</li>
@@ -124,7 +143,36 @@
                             <li>Feature 8</li>
                             <li>Feature 9</li>
                             <li>Feature 10</li>
-                          
+
+                        </ul>
+                    </li> <!-- .product -->
+                    <li class="product" id="productmobile">
+                        <div class="top-info"  data-toggle="modal" data-target="#addvehiclemodel">
+                
+                            <i class="fa fa-plus-square-o addvehicle" aria-hidden="true"></i>
+                            <p>Add</p>
+                        </div> <!-- .top-info -->
+
+                        <ul class="cd-features-list">
+                            <li>₹90,000</li>
+                            <li>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </li>
+
+                            <li>Feature 2</li>
+                            <li>Feature 3</li>
+                            <li>Feature 4</li>
+                            <li>Feature 5</li>
+                            <li>Feature 6</li>
+                            <li>Feature 7</li>
+                            <li>Feature 8</li>
+                            <li>Feature 9</li>
+                            <li>Feature 10</li>
+
                         </ul>
                     </li> <!-- .product -->
 
@@ -137,13 +185,13 @@
 
                         <ul class="cd-features-list">
                             <li>₹90,000</li>
-                            <li>    <span class="fa fa-star checked"></span>
+                            <li> <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                             </li>
-                        
+
                             <li>Feature 2</li>
                             <li>Feature 3</li>
                             <li>Feature 4</li>
@@ -153,7 +201,7 @@
                             <li>Feature 8</li>
                             <li>Feature 9</li>
                             <li>Feature 10</li>
-                          
+
                         </ul>
                     </li> <!-- .product -->
                     <li class="product">
@@ -165,13 +213,13 @@
 
                         <ul class="cd-features-list">
                             <li>₹90,000</li>
-                            <li>    <span class="fa fa-star checked"></span>
+                            <li> <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                             </li>
-                        
+
                             <li>Feature 2</li>
                             <li>Feature 3</li>
                             <li>Feature 4</li>
@@ -181,7 +229,7 @@
                             <li>Feature 8</li>
                             <li>Feature 9</li>
                             <li>Feature 10</li>
-                          
+
                         </ul>
                     </li> <!-- .product -->
                     <li class="product">
@@ -193,13 +241,13 @@
 
                         <ul class="cd-features-list">
                             <li>₹90,000</li>
-                            <li>    <span class="fa fa-star checked"></span>
+                            <li> <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                             </li>
-                        
+
                             <li>Feature 2</li>
                             <li>Feature 3</li>
                             <li>Feature 4</li>
@@ -209,7 +257,7 @@
                             <li>Feature 8</li>
                             <li>Feature 9</li>
                             <li>Feature 10</li>
-                          
+
                         </ul>
                     </li> <!-- .product -->
                     <li class="product">
@@ -221,13 +269,13 @@
 
                         <ul class="cd-features-list">
                             <li>₹90,000</li>
-                            <li>    <span class="fa fa-star checked"></span>
+                            <li> <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                             </li>
-                        
+
                             <li>Feature 2</li>
                             <li>Feature 3</li>
                             <li>Feature 4</li>
@@ -237,7 +285,7 @@
                             <li>Feature 8</li>
                             <li>Feature 9</li>
                             <li>Feature 10</li>
-                          
+
                         </ul>
                     </li> <!-- .product -->
                     <li class="product">
@@ -249,13 +297,13 @@
 
                         <ul class="cd-features-list">
                             <li>₹90,000</li>
-                            <li>    <span class="fa fa-star checked"></span>
+                            <li> <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                             </li>
-                        
+
                             <li>Feature 2</li>
                             <li>Feature 3</li>
                             <li>Feature 4</li>
@@ -265,7 +313,7 @@
                             <li>Feature 8</li>
                             <li>Feature 9</li>
                             <li>Feature 10</li>
-                          
+
                         </ul>
                     </li> <!-- .product -->
                     <li class="product">
@@ -277,13 +325,13 @@
 
                         <ul class="cd-features-list">
                             <li>₹90,000</li>
-                            <li>    <span class="fa fa-star checked"></span>
+                            <li> <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                             </li>
-                        
+
                             <li>Feature 2</li>
                             <li>Feature 3</li>
                             <li>Feature 4</li>
@@ -293,7 +341,7 @@
                             <li>Feature 8</li>
                             <li>Feature 9</li>
                             <li>Feature 10</li>
-                          
+
                         </ul>
                     </li> <!-- .product -->
                 </ul> <!-- .cd-products-columns -->
@@ -306,8 +354,31 @@
         </div> <!-- .cd-products-table -->
     </section> <!-- .cd-products-comparison-table -->
 
-
-
+   <!-- Modal -->
+<div class="modal fade bd-example-modal-sm" id="addvehiclemodel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"><b>Add Vehicle</b></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        <form action="">
+            <input class="form-control form-control-lg" type="text" placeholder="Select Brand"><br>
+            <input class="form-control form-control-lg " type="text" placeholder="Select Model"><br>
+            <input class="form-control form-control-lg" type="text" placeholder="Select Variant">
+      
+        </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Add Vehicle</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
