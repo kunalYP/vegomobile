@@ -24,6 +24,12 @@
 #showroomtop{
   padding-top: 20px;
 }
+#garagesearchboxdesktop{
+  padding-top:60px;
+}
+#servicecentersheading{
+  padding-top: 25px;
+}
 .inner{
     overflow: hidden;
 }
@@ -2138,7 +2144,9 @@ padding-left: 10px;
   margin: auto;
 
 }
-
+#garagesearchboxdesktop{
+  display: none;
+}
 
 }
 
