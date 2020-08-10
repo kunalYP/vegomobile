@@ -1753,7 +1753,7 @@ color: #fd1111;
 }
 .servicesverticalcards
 {
- padding-top: 33px;
+ padding-top: 23px;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -2250,6 +2250,7 @@ padding-left: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
@@ -2384,6 +2385,7 @@ padding-left: 10px;
 
 
 
+
 .dropdown-menu{
     display: none;
     position: absolute;
@@ -2485,7 +2487,7 @@ padding-left: 10px;
 .showroommobile {
   padding-top: 30px;
   padding-bottom: 30px;
-  background: linear-gradient(90deg, #790404,#790404);
+  background: linear-gradient(90deg, #af1a00,#b15000ea);
   color: white;
 }
   .showroommobile h3 {
