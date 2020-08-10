@@ -499,7 +499,7 @@ Main Components
   color: transparent;
   height: 60px;
   width: 40px;
-  background: rgba(64, 64, 66, 0.8) url("../img/cd-arrow.svg") no-repeat center center;
+
   border-radius: 3px;
   -webkit-transition: background-color 0.3s, opacity 0.3s, visibility 0.3s, -webkit-transform 0.3s;
   -moz-transition: background-color 0.3s, opacity 0.3s, visibility 0.3s, -moz-transform 0.3s;
@@ -671,10 +671,9 @@ input{
    #comparevehiclesdesktop{
      display: none;
    }
-
-   #productdesktop{
-     display:none;
-   }
+.actions{
+  display: none;
+  }
 
  }
  @media only screen and (min-width: 600px) {
@@ -684,14 +683,57 @@ input{
    .heading{
      display:none;
    }
-   #productmobile{
-    display:none;
-  }
+
  }
 
 
  .addvehicle{
-   padding-top: 10px;
-   color: rgba(255, 0, 0, 0.87);
-   font-size : 100px;
+
+   color: rgba(17, 4, 3, 0.87);
+   font-size : 80px;
  }
+
+ .comparearea {
+  padding-top: 35px;
+  border: 0.1px solid rgb(223, 220, 220);
+  height: 170px;
+  width: 100%;
+
+}
+
+.circle1{
+  float:left;
+}
+.circle2{
+  
+float:right;
+}
+.circle {
+  margin-top:40px;
+	background: red;
+	border-radius:50%;
+	color: rgb(248, 246, 246);
+  width:25px;
+  height: 25px;
+  font-weight: 800;
+  font-size: 10px;
+}
+.circle span {
+	display:table-cell;
+	vertical-align:middle;
+font-size:13px;
+  text-align:center;
+  padding-left:3px;
+  padding-top:6px;
+}
+
+.comparebutton{
+  height:45px;
+  font-size:20px;
+  font-weight: 500;
+}
+.comparebuttondiv{
+  margin-top:20px;
+  margin-left:10px;
+  margin-right:10px;
+}
