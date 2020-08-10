@@ -695,7 +695,7 @@ input{
 
  .comparearea {
   padding-top: 35px;
-  border: 0.1px solid rgb(223, 220, 220);
+  border: 6px solid rgba(223, 220, 220, 0.192);
   height: 170px;
   width: 100%;
 
@@ -723,13 +723,13 @@ float:right;
 	vertical-align:middle;
 font-size:13px;
   text-align:center;
-  padding-left:3px;
+  padding-left:5px;
   padding-top:6px;
 }
 
 .comparebutton{
   height:45px;
-  font-size:20px;
+  font-size:18px;
   font-weight: 500;
 }
 .comparebuttondiv{
