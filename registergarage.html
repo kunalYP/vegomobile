@@ -192,9 +192,9 @@
 
         <div class="page-content">
             <div class="form-v4-content">
-    
+
                 <form class="form-detail" action="#" method="post" id="myform">
-    
+
                     <h2>Owner Information</h2>
                     <div class="form-group">
                         <div class="form-row form-row-1">
@@ -221,13 +221,13 @@
                         <input type="text" name="your_email" id="your_email" class="input-text" required
                             pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
                     </div>
-    
+
                     <div class="form-row">
                         <label for="your_email">Identity Proof : ( Adhar Card , Voter Id , Passport , Pan Card )</label>
                         <input type="file" name="your_email" id="your_email" class="input-text" required
                             pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
                     </div>
-             
+
                     <hr style="border:2px solid #2f73a3;">
                     <h2 class="pt-4">Garage Details</h2>
                     <div class="form-row">
@@ -249,7 +249,7 @@
                         <label for="exampleFormControlTextarea1">Garage Address In Detail</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
-    
+
                     <div class="form-row pt-4">
                         <label for="your_email">Garage Photos : ( Min : 6 and Max: 10 )</label>
                         <input type="file" name="your_email" id="your_email" class="input-text" required
@@ -258,16 +258,38 @@
                     <div class="form-group">
                         <div class="form-row form-row-1">
                             <label for="first_name">Birth Year : </label>
-                            <input type="text" name="first_name" id="first_name" class="input-text">
+                   
                         </div>
                         <div class="form-row form-row-1">
                             <label for="last_name">No of Workers : </label>
                             <input type="text" name="last_name" id="last_name" class="input-text">
                         </div>
                     </div>
+
+                    <div class="form-row">
+                    
+                         
+                     
+            
+                    </div>
+                    <hr style="border:2px solid #2f73a3;">
+                    <h2 class="pt-4">Garage Location</h2>
+
+                    <div class="form-row">
+                        <label for="your_email">Garage Address :</label>
+                        <input type="text" name="your_email" id="your_email" class="input-text" required
+                            pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+                    </div>
+                    <div class="form-row">
+                        <iframe id="googlemap"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15073.234307308167!2d77.02138377450119!3d19.181720042435785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f853c6a83fbf800!2sPurna%20Junction!5e0!3m2!1sen!2sin!4v1597152317620!5m2!1sen!2sin"
+                             frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+
                     <hr style="border:2px solid #2f73a3;">
                     <h2 class="pt-4">Login Credentials</h2>
-    
+
                     <div class="form-row">
                         <label for="your_email">Mobile No :</label>
                         <input type="text" name="your_email" id="your_email" class="input-text" required
@@ -416,9 +438,9 @@
                         </p>
                         <p>
                             <a class="dark-grey-text" href="#">Contact Us
-                                </a>
+                            </a>
                         </p>
-                   
+
                     </div>
                 </div>
 
@@ -528,7 +550,7 @@
         $(".signup-form").hide();
         $(".login-form").show();
         $(".signup").css("background", "none");
-        $(".login").css("background","#75e2e9");
+        $(".login").css("background", "#75e2e9");
     });
 
     $(".signup").click(function () {

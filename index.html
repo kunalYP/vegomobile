@@ -138,7 +138,7 @@
     </header>
 
 
-    <section id="ownerlocation">
+    <section id="ownerlocation" data-toggle="tooltip" title="Your Location">
         <div class="alert alert-primary" role="alert">
             <i class="fa fa-map-marker" aria-hidden="true"></i>
             Kunal- Parbhani, 431512
@@ -148,7 +148,8 @@
     <section id="servicesmobile">
         <div class="container text-center" id="servicescontainer">
             <div class="row" id="servicerow">
-                <div class="col" id="servicecol" onclick="location.href='emergencyservice.html';">
+                <div class="col" id="servicecol" onclick="location.href='emergencyservice.html';" data-toggle="tooltip"
+                    title="Get Your Vehicle Repaired Anywhere in 10 mins">
                     <img src="images/service1.png" class="img1" alt="...">
                     <div class="servicetext">Emergency service</div>
 
@@ -177,42 +178,31 @@
         </div>
     </section>
     <section class="vegospecial" id="top4garagesmobile">
-        <div class="container-fluid heading">
-            <h4><span></span> Vego <span>Special</span></h4>
-            <p>Ahemadnagar</p>
+        <div class="container-fluid heading2">
+            <h4><span></span><span></span></h4>
         </div>
-        <div id="horizontalscrolling">
-            <div class="scroll">
-                <div class="horizontal-scroll">
-                    <div class="scroll-container">
-                        <div class="item" onclick="location.href='';">
-                            <img src="images/windshield.png" alt="">
-                            <h1 class="scroll-cap" >999₹</h1>
-                        </div>
-                        <div class="item" onclick="location.href='';">
-                            <img src="images/tyre.png" alt="">
-                            <h1 class="scroll-cap">99₹</h1>
-                        </div>
-                        <div class="item" onclick="location.href='';">
-                            <img src="images/brake.png" alt="">
-                            <h1 class="scroll-cap">999₹</h1>
-                        </div>
-                        <div class="item" onclick="location.href='';">
-                            <img src="images/monsoon shield.png" alt="">
-                            <h1 class="scroll-cap">999₹</h1>
-                        </div>
-                    </div>
 
-                </div>
+        <div class="container">
+            <div class="row" id="serviceoffercard">
+                <img src="images/emergencycards.jpg" alt="" id="offerimage">
             </div>
         </div>
-        <div id="circle">
-            <span class="circle"></span>
-            <span class="circle"></span>
-            <span class="circle"></span>
-            <span class="circle"></span>
+
+        <div class="container-fluid heading2">
+            <h4><span></span><span></span></h4>
         </div>
 
+        <div class="container heading" style="padding-top:30px;">
+            <h4><span></span> Vego <span>Special Offers</span></h4>
+            <p>Ahemadnagar</p>
+
+            <div class="row offerimage" id="serviceoffercard" style="padding-bottom:15px;margin-top:-10px;">
+                <img src="images/offer.jpg" alt="" id="offerimage">
+            </div>
+            <div class="row offerimage" id="serviceoffercard">
+                <img src="images/emergencycards2.jpg" alt="" id="offerimage">
+            </div>
+        </div>
     </section>
     <section id="top4showroomsmobile">
         <div class="container-fluid heading">
@@ -292,7 +282,7 @@
 
     </section>
 
-    
+
 
     <section id="servicescardsmobile">
         <div class="container-fluid heading">
@@ -317,7 +307,7 @@
                     </div>
                 </div>
             </a>
-     <a href="#" style="text-decoration: none; color:black;">
+            <a href="#" style="text-decoration: none; color:black;">
 
                 <div class="row" id="servicescardsrow">
                     <div class="service-cont-btm-one">
@@ -377,7 +367,7 @@
         </div>
 
     </section>
-   
+
     <section id="mobilefooter">
         <footer class="mobilefooter" style="position: relative;">
             <p class="footer-item mx-auto">© 2020-2021 VeGO</p>
@@ -519,19 +509,11 @@
 
     <section id="top4showrooms">
 
-        <div class="d-flex flex-row-reverse mt-0  pr-2" id="showroomsection">
-            <form class="form-inline">
-                <div class="form-group mx-sm-3 mb-2">
-                    <input type="text" class="form-control" id="inputPassword2" placeholder="Add Your City">
-                </div>
-                <button type="submit" class="btn btn-primary mb-2 city">Add</button>
-            </form>
-        </div>
         <div class="container-fluid services">
-            <h4><span>Top 4 Vehicle</span> Showrooms <span>In Your City</span></h4>
+            <h4><span>Top 5 Vehicle</span> Showrooms <span>In Your City</span></h4>
             <p> We cater an array of high-end products for Education and Government Sector </p>
             <div class="d-flex justify-content-around ">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 15rem;">
                     <div class="inner">
                         <img class="card-img-top" src="images/showroom1.jpg" alt="Card image cap">
                     </div>
@@ -551,7 +533,7 @@
                     </div>
                     <a href="showroominfo.html" class="stretched-link"></a>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 15rem;">
                     <div class="inner">
                         <img class="card-img-top" src="images/showroom2.jpg" alt="Card image cap">
                     </div>
@@ -571,7 +553,7 @@
                     </div>
                     <a href="showroominfo.html" class="stretched-link"></a>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 15rem;">
                     <div class="inner">
                         <img class="card-img-top" src="images/showroom3.jpg" alt="Card image cap">
                     </div>
@@ -592,7 +574,7 @@
                     <a href="showroominfo.html" class="stretched-link"></a>
 
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 15rem;">
                     <div class="inner">
                         <img class="card-img-top" src="images/showroom4.jpg" alt="Card image cap">
                     </div>
@@ -613,7 +595,27 @@
                     <a href="showroominfo.html" class="stretched-link"></a>
 
                 </div>
+                <div class="card" style="width: 15rem;">
+                    <div class="inner">
+                        <img class="card-img-top" src="images/showroom1.jpg" alt="Card image cap">
+                    </div>
 
+                    <div class="card-body">
+                        <h5 class="card-title">Showroom 5</h5>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <ul class="list-group list-group-flush pt-2">
+
+                            <li class="list-group-item">+91 7774843561</li>
+                            <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                        </ul>
+                    </div>
+                    <a href="showroominfo.html" class="stretched-link"></a>
+
+                </div>
             </div>
             <a href="nearbyshowrooms.html" class="badge badge-light" style="float:right;">See More <i
                     class="fa fa-angle-double-right" aria-hidden="true"></i></a>
@@ -623,12 +625,12 @@
 
     <section id="top4garages">
         <div class="container-fluid services">
-            <h4><span>Top 4 Vehicle</span> Garages <span>In Your City</span></h4>
+            <h4><span>Top 5 Vehicle</span> Garages <span>In Your City</span></h4>
             <p> We cater an array of high-end products for Education and Government Sector </p>
 
             <div class="d-flex justify-content-around kp">
 
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 15rem;">
                     <div class="inner">
                         <img class="card-img-top" src="images/garage1 (2).jpg" alt="Card image cap">
                     </div>
@@ -651,7 +653,7 @@
 
                 </div>
 
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 15rem;">
                     <div class="inner">
                         <img class="card-img-top" src="images/garage1 (3).jpg" alt="Card image cap">
                     </div>
@@ -672,7 +674,7 @@
                     <a href="garageinfo.html" class="stretched-link"></a>
 
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 15rem;">
                     <div class="inner">
                         <img class="card-img-top" src="images/garage1 (4).jpg" alt="Card image cap">
                     </div>
@@ -693,7 +695,7 @@
                     <a href="garageinfo.html" class="stretched-link"></a>
 
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 15rem;">
                     <div class="inner">
                         <img class="card-img-top" src="images/garage1 (1).jpg" alt="Card image cap">
                     </div>
@@ -714,6 +716,28 @@
                     <a href="garageinfo.html" class="stretched-link"></a>
 
                 </div>
+                <div class="card" style="width: 15rem;">
+                    <div class="inner">
+                        <img class="card-img-top" src="images/garage1 (3).jpg" alt="Card image cap">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title">Garage 5</h5>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <ul class="list-group list-group-flush pt-2">
+
+                            <li class="list-group-item">+91 7774843561</li>
+                            <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                        </ul>
+                    </div>
+                    <a href="garageinfo.html" class="stretched-link"></a>
+
+                </div>
+
             </div>
             <a href="nearbygarages.html" class="badge badge-light" style="float:right;">See More <i
                     class="fa fa-angle-double-right" aria-hidden="true"></i></a>
@@ -777,6 +801,7 @@
                                                 Number with anyone else.</small>
 
                                         </div>
+                                     
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">New Password</label>
                                             <input type="password" class="form-control" id="exampleInputEmail1"
@@ -1176,6 +1201,9 @@
         document.getElementById("mySidebar").style.display = "none";
         document.getElementById("myOverlay").style.display = "none";
     }
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
 </script>
 
 </html>
