@@ -154,7 +154,7 @@ div.card {
             .contactus h3 {
                 font-weight: 600;
                 font-size:1.8rem;
-                text-shadow: 0 0 3px rgba(0,0,0,0.2);
+                text-shadow: 0 0 3px r orgba(0,0,0,0.2);
             }
             .contactus p {
                 font-weight: 300;
@@ -1909,8 +1909,8 @@ padding-top: 3%;
 
 }
 #circle{
-  margin-left: 20px;
-  margin-top: 10px;
+  margin-left: 19px;
+  margin-top: 9px;
 }
 #servicescardsmobile{
 padding-top: 33px;
