@@ -33,6 +33,48 @@
 #top4showrooms{
   padding-top: 30px;
 }
+#registergarageshowroom{
+  padding-top:27px;
+}
+#ownerlocation{
+  margin-top:10px;
+}
+
+
+.fixedsearchbox {
+  height: 50px;
+  width: 100%;
+  background: white;
+  border-radius: 5px;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: flex;
+
+}
+.fixedsearchbox > .btn-menu {
+  padding:10px;
+background-color: white;
+  border: none;
+  
+}
+.fixedsearchbox > .search {
+  border: none;
+ background-color: white;
+  width: 100%;
+}
+
+
+#searchicon{
+  font-size:20px;
+ opacity: 0.5;
+}
+
+
+
+
+
 .inner{
     overflow: hidden;
 }
@@ -431,6 +473,7 @@ input {
 }
 input::placeholder {
   font-family: 'Lexend Deca', sans-serif;
+  
 }
 input:focus {
   outline: none;
@@ -2066,6 +2109,7 @@ padding-left: 10px;
 
   display: flex;
   justify-content: center;
+
   
 
 }
@@ -2150,6 +2194,13 @@ padding-left: 10px;
 #garagesearchboxdesktop{
   display: none;
 }
+
+input::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 4;
+}
+
+
 
 }
 
@@ -2264,6 +2315,31 @@ padding-left: 10px;
 #googlemap{
   width:100%;
   height: 400px;
+}
+
+#mobilenavbar{
+  background: linear-gradient(90deg, #5db6e9,#bff0f0);
+}
+.menu-icon {
+
+  top: 0;
+  
+  padding: 18px 20px;
+}
+
+#search{
+  padding-top:10px;
+  padding-bottom:10px;
+
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(189, 9, 9);
+}
+.sticky + .content {
+  padding-top: 102px;
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {

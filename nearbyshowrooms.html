@@ -85,18 +85,37 @@
     </header>
     <header id="mobilenavbar">
         <!-- Just an image -->
-        <nav class="navbar navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
+        <nav class="navbar navbar-light navbarcolor">
+            <button class="navbar-toggler menu-icon" type="button" data-toggle="collapse" aria-expanded="false"
                 onclick="w3_open()" aria-label="Toggle navigation" style="border:none;">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <a class="navbar-brand" href="#">
                 <img src="images/logo.png" width="85" height="45" alt="">
             </a>
-        </nav>
-    </header>
 
-    <section id="searchshowroommobile">
+        </nav>
+        <div class="container" id="myHeader">
+
+            <div  id="search">
+                <div class="fixedsearchbox">
+                    <button class="btn-menu">
+                        <i class="fa fa-search" aria-hidden="true" id="searchicon"></i>
+                    </button>
+                    <input id="fixedsearch" type="text" placeholder="Search For Garage or Service Center"
+                         class="search">
+                </div>
+            </div>
+
+
+
+        </div>
+    
+
+    </header>
+    <!--
+  <section id="searchshowroommobile">
         <div class="container-fluid showroommobile">
             <div class="container">
                 <div class="row" id="searchrow">
@@ -143,6 +162,9 @@
 
     </section>
 
+
+    -->
+  
     <section id="showroomscardsmobile">
         <div class="container heading" style="margin-top:20px">
             <h4><span></span> Showrooms <span>In Your City</span></h4>
