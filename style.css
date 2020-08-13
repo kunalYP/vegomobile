@@ -2600,7 +2600,7 @@ border: none;
     width:98%;
     border-radius: 10px;
     height:155px;
-    
+        box-shadow: 1.5px 2px 3px rgb(199, 199, 199);
   }
   #serviceoffercard{
    justify-content: center;
