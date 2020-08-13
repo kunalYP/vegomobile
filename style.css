@@ -97,8 +97,8 @@ background-color: white;
   color: #000000;
   border-radius: 5px;
   margin-left: 20px;
-  width:35%;
-  height:40%;
+  width:40%;
+  height:45%;
 }
 
 .item img {
@@ -1499,7 +1499,7 @@ img {
 .team-block .inner-box:hover .social-icons li a,
 .team-block .inner-box:hover .lower-content .designation {
   color: #ffffff;
-}
+} 
 
 .team-block .inner-box .image {
   position: relative;
