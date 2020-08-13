@@ -99,7 +99,7 @@
             </a>
 
         </nav>
-        <div class="container" id="myHeader">
+        <div class="container sticky-top" id="myHeader">
 
             <div  id="search">
                 <div class="fixedsearchbox">
@@ -1014,6 +1014,18 @@
 
         
 
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+    
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
     </script>
 </body>
 
