@@ -110,7 +110,7 @@ background-color: white;
 
 .item2 {
   display: inline-block;
-  background: linear-gradient(90deg, #fad7bbe8,#f08d8d81);
+  background: linear-gradient(90deg, hsla(12, 97%, 75%, 0.767),hsla(0, 89%, 75%, 0.788));
   color: #000000;
   border-radius: 5px;
   width:40%;
@@ -745,8 +745,8 @@ input:focus {
 
   #hero {
     width: 100%;
+    margin-top: 10%;
     height: 70vh;
-    margin-top: 70px;
   }
   
  
@@ -796,11 +796,7 @@ input:focus {
   
   @media (max-width: 991px) {
     #hero {
-      height: 70vh;
-    }
-    #hero .animated {
-      -webkit-animation: none;
-      animation: none;
+      height: 75vh;
     }
     #hero .hero-img {
       text-align: center;
@@ -812,7 +808,7 @@ input:focus {
   
   @media (max-width: 768px) {
     #hero {
-      margin-top: 20px;
+      margin-top: 10%;
     }
     #hero h1 {
       font-size: 28px;
@@ -887,11 +883,7 @@ input:focus {
   
   @media (max-width: 991px) {
     #hero2 {
-      height: 60vh;
-    }
-    #hero2 .animated {
-      -webkit-animation: none;
-      animation: none;
+      height: 70vh;
     }
     #hero2 .hero-img {
       text-align: center;
@@ -2272,7 +2264,34 @@ input::-webkit-input-placeholder {
   letter-spacing: 0.0px;
   font-weight: 500 !important;
 }
-
+.feedbackform{
+  margin-top:-80px;
+}
+#aboutuscorousel{
+  padding-top:10px;
+}
+#servicesaboutus{
+  padding-top:20px;
+  width:94%;
+}
+#team{
+  padding-top:10px;
+}
+.team-page-section h2{
+  font-size:22px;
+}
+#ourfeatures{
+  margin-top:20px;
+}
+#borderregister{
+  display: none;
+}
+.form-v4-content h2 {
+	font-weight: 700;
+	font-size: 20px;
+	padding: 6px 0 0;
+	margin-bottom: 34px;
+}
 }
 
 
@@ -2643,7 +2662,15 @@ border: none;
 #showroomscardsmobile{
   display: none;
 }
-
+#aboutuscorousel{
+  padding-top:90px;
+}
+#team{
+  padding-top:90px;
+}
+#form{
+  padding-top:40px;
+}
 }
 
 

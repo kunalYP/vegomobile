@@ -128,14 +128,14 @@
 
                 <a href="emergencyservice.html" class="w3-bar-item w3-button"><i class="fa fa-exclamation-triangle"
                         aria-hidden="true" style="margin-right: 1rem;"></i> Emergency Service</a>
-                <a href="comparecars.html" class="w3-bar-item w3-button"><i class="fa fa-balance-scale"
+                <a href="vehcilecomparison.html" class="w3-bar-item w3-button"><i class="fa fa-balance-scale"
                         aria-hidden="true" style="margin-right: 1rem;"></i>Compare Vehicles</a>
-                <a href="servicing.html" class="w3-bar-item w3-button"> <i class="fa fa-car" aria-hidden="true"
+                <a href="nearbyshowrooms.html" class="w3-bar-item w3-button"> <i class="fa fa-car" aria-hidden="true"
                         style="margin-right: 1rem;"></i> Nearby Showrooms & Shops</a>
-                <a href="ondoorservice.html" class="w3-bar-item w3-button"><i class="fa fa-cogs" aria-hidden="true"
+                <a href="nearbygarages.html" class="w3-bar-item w3-button"><i class="fa fa-cogs" aria-hidden="true"
                         style="margin-right: 1rem;"></i> Nearby Garages & Workshops</a>
                 <div class="dropdown-divider"></div>
-                <a href="workwithus.html" class="w3-bar-item w3-button"><i class="fa fa-handshake-o" aria-hidden="true"
+                <a href="registergarage.html" class="w3-bar-item w3-button"><i class="fa fa-handshake-o" aria-hidden="true"
                         style="margin-right: 1rem;"></i>Work With Us</a>
                 <a href="aboutus.html" class="w3-bar-item w3-button"><i class="fa fa-globe" aria-hidden="true"
                         style="margin-right: 1rem;"></i> About Us</a>
@@ -181,6 +181,10 @@
         </div>
 
     </section><!-- End Hero -->
+    <div class="container-fluid heading">
+        <h4><span>Our</span> Features <span></span></h4>
+        
+    </div>
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
         <div class="container">
@@ -269,7 +273,8 @@
                 </div>
                 <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
                     <div class="icon-box">
-                        <img src="images/1200px-Money_Flat_Icon.svg.png" height="40px" width="40px" alt=""> &nbsp;&nbsp;&nbsp;
+                        <img src="images/1200px-Money_Flat_Icon.svg.png" height="40px" width="40px" alt="">
+                        &nbsp;&nbsp;&nbsp;
                         <h3><a href="">Yearly Maintainance : ₹1499</a></h3>
                     </div>
                 </div>
@@ -278,20 +283,24 @@
         </div>
     </section><!-- End Features Section -->
     <br>
-<div id="form"></div>
+    <div id="form"></div>
     <section class="pt-4 registerform ">
 
-        <div class="container-fluid services" >
+        <div class="container-fluid services">
             <h4><span>Fill This Form To </span> Register <span> Your </span>Showroom</h4>
             <p> by Filling This form You Will be Working With Us </p>
         </div>
-        <hr style="border-bottom: 2px solid black;">
+        <div class="container-fluid heading" style="margin-bottom:-130px;">
+            <h4><span>Fill This Form To</span> Register <span></span></h4>
+            
+        </div>
+        <hr id="borderregister" style="border-bottom: 2px solid black;">
 
         <div class="page-content">
             <div class="form-v4-content">
-    
+
                 <form class="form-detail" action="#" method="post" id="myform">
-    
+
                     <h2>Owner Information</h2>
                     <div class="form-group">
                         <div class="form-row form-row-1">
@@ -313,18 +322,8 @@
                             <input type="text" name="last_name" id="last_name" class="input-text">
                         </div>
                     </div>
-                    <div class="form-row">
-                        <label for="your_email">Residential Address</label>
-                        <input type="text" name="your_email" id="your_email" class="input-text" required
-                            pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
-                    </div>
-    
-                    <div class="form-row">
-                        <label for="your_email">Identity Proof : ( Adhar Card , Voter Id , Passport , Pan Card )</label>
-                        <input type="file" name="your_email" id="your_email" class="input-text" required
-                            pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
-                    </div>
-            
+                 
+
                     <hr style="border:2px solid #2f73a3;">
                     <h2 class="pt-4">Showroom Details</h2>
                     <div class="form-row">
@@ -344,7 +343,7 @@
                             <option value="1">Three Wheeler</option>
                             <option value="2">Four Wheeler</option>
                             <option value="3">More Wheeler</option>
-                          </select>
+                        </select>
                     </div>
                     <div class="form-group pt-4">
                         <div class="form-row form-row-1">
@@ -360,7 +359,7 @@
                         <label for="exampleFormControlTextarea1">Showroom Address In Detail</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
-    
+
                     <div class="form-row pt-4">
                         <label for="your_email">Showroom Photos: ( Min : 6 & Max: 10 )</label>
                         <input type="file" name="your_email" id="your_email" class="input-text" required
@@ -389,12 +388,12 @@
                     <div class="form-row">
                         <iframe id="googlemap"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15073.234307308167!2d77.02138377450119!3d19.181720042435785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f853c6a83fbf800!2sPurna%20Junction!5e0!3m2!1sen!2sin!4v1597152317620!5m2!1sen!2sin"
-                             frameborder="0" style="border:0;" allowfullscreen=""
-                            aria-hidden="false" tabindex="0"></iframe>
+                            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                            tabindex="0"></iframe>
                     </div>
                     <hr style="border:2px solid #2f73a3;">
                     <h2 class="pt-4">Login Credentials</h2>
-    
+
                     <div class="form-row">
                         <label for="your_email">Mobile No :</label>
                         <input type="text" name="your_email" id="your_email" class="input-text" required
@@ -501,8 +500,8 @@
             </div>
         </div>
     </div>
-    <hr style="border-bottom: 2px solid black;">
-    <footer class="footer text-muted">
+    
+    <footer class="footer text-muted" id="bigfooter">
 
 
         <!-- Footer Links -->
@@ -543,9 +542,9 @@
                         </p>
                         <p>
                             <a class="dark-grey-text" href="#">Contact Us
-                                </a>
+                            </a>
                         </p>
-                   
+
                     </div>
                 </div>
 
@@ -655,7 +654,7 @@
         $(".signup-form").hide();
         $(".login-form").show();
         $(".signup").css("background", "none");
-        $(".login").css("background","#75e2e9");
+        $(".login").css("background", "#75e2e9");
     });
 
     $(".signup").click(function () {
@@ -668,6 +667,16 @@
     $(".btn").click(function () {
         $(".input").val("");
     });
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+
 </script>
 
 </html>

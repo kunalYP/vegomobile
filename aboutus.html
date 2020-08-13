@@ -97,21 +97,7 @@
             </a>
 
         </nav>
-        <div class="container  sticky-top" id="myHeader">
-
-            <div id="search">
-                <div class="fixedsearchbox">
-                    <button class="btn-menu">
-                        <i class="fa fa-search" aria-hidden="true" id="searchicon"></i>
-                    </button>
-                    <input id="fixedsearch" type="text" placeholder="Search For Garage, Showroom or Location"
-                        class="search">
-                </div>
-            </div>
-
-
-
-        </div>
+ 
         <header id="sidebar">
             <div class="w3-sidebar w3-bar-block w3-animate-left fixed" style="display:none;z-index:5;width:80%;"
                 id="mySidebar">
@@ -128,14 +114,14 @@
 
                 <a href="emergencyservice.html" class="w3-bar-item w3-button"><i class="fa fa-exclamation-triangle"
                         aria-hidden="true" style="margin-right: 1rem;"></i> Emergency Service</a>
-                <a href="comparecars.html" class="w3-bar-item w3-button"><i class="fa fa-balance-scale"
+                <a href="vehcilecomparison.html" class="w3-bar-item w3-button"><i class="fa fa-balance-scale"
                         aria-hidden="true" style="margin-right: 1rem;"></i>Compare Vehicles</a>
-                <a href="servicing.html" class="w3-bar-item w3-button"> <i class="fa fa-car" aria-hidden="true"
+                <a href="nearbyshowrooms.html" class="w3-bar-item w3-button"> <i class="fa fa-car" aria-hidden="true"
                         style="margin-right: 1rem;"></i> Nearby Showrooms & Shops</a>
-                <a href="ondoorservice.html" class="w3-bar-item w3-button"><i class="fa fa-cogs" aria-hidden="true"
+                <a href="nearbygarages.html" class="w3-bar-item w3-button"><i class="fa fa-cogs" aria-hidden="true"
                         style="margin-right: 1rem;"></i> Nearby Garages & Workshops</a>
                 <div class="dropdown-divider"></div>
-                <a href="workwithus.html" class="w3-bar-item w3-button"><i class="fa fa-handshake-o" aria-hidden="true"
+                <a href="registergarage.html" class="w3-bar-item w3-button"><i class="fa fa-handshake-o" aria-hidden="true"
                         style="margin-right: 1rem;"></i>Work With Us</a>
                 <a href="aboutus.html" class="w3-bar-item w3-button"><i class="fa fa-globe" aria-hidden="true"
                         style="margin-right: 1rem;"></i> About Us</a>
@@ -151,18 +137,12 @@
 
             </div>
         </header>
-        <section id="ownerlocation">
-            <div class="alert alert-primary" role="alert" data-toggle="modal" data-target="#locationmodal">
-
-                <i style="font-size:20px" class="fa fa-map-marker" aria-hidden="true"></i>
-                <a id="ko" data-toggle="tooltip" title="Add Your Own Location">Purna , Parbhani-431512</a>
-            </div>
-        </section>
+      
 
     </header>
 
-    <br> <br>
-    <div class="container-fluid mt-4 pt-4">
+    
+    <div class="container-fluid" id="aboutuscorousel">
         <div class="row">
             <div class="col-sm-6">
                 <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
@@ -215,7 +195,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6" id="servicesaboutus">
 
                 <div class="row  features pl-4">
                     <div class="icon-box col-lg-11 ">
@@ -248,6 +228,7 @@
     <div class="container-fluid services">
         <h4><span>About</span> Company <span></span></h4>
     </div>
+
     <div class="container aboutus">
 
         <div class="row">
@@ -277,11 +258,14 @@
         <div class="container-fluid services">
             <h4><span>Our</span> Values <span></span></h4>
         </div>
+        <div class="container heading" style="padding-top:30px;">
+            <h4><span>Our</span> Values<span></span></h4>
+        </div>
         <div class="row pt-4">
             <div class="col-lg-3">
                 <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                     <div class="features-icons-icon">
-                        <img src="images/value.svg" width="090px" alt="">
+                        <img src="images/handshake.svg" width="090px" alt="">
                     </div>
                     <h3>Support</h3>
                 </div>
@@ -289,7 +273,7 @@
             <div class="col-lg-3">
                 <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                     <div class="features-icons-icon">
-                        <img src="images/value.svg" width="090px" alt="">
+                        <img src="images/teamwork.svg" width="134px" alt="">
                     </div>
                     <h3>TeamWork</h3>
                 </div>
@@ -297,7 +281,7 @@
             <div class="col-lg-3">
                 <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                     <div class="features-icons-icon">
-                        <img src="images/value.svg" width="090px" alt="">
+                        <img src="images/ownership.png" width="090px" alt="">
                     </div>
                     <h3>Ownership</h3>
                 </div>
@@ -305,22 +289,25 @@
             <div class="col-lg-3">
                 <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                     <div class="features-icons-icon">
-                        <img src="images/value.svg" width="090px" alt="">
+                        <img src="images/bright.png" width="090px" alt="">
                     </div>
                     <h3>Future</h3>
                 </div>
             </div>
         </div>
-    </div><br>
+    </div>
 
     <section>
-        <section class="team-page-section">
+        <section class="team-page-section" id="team">
             <div class="container">
                 <!-- Sec Title -->
                 <div class="sec-title centered">
 
                     <div class="container-fluid services text-center ">
                         <h4><span>Our</span> Team <span></span></h4>
+                    </div>
+                    <div class="container heading" style="padding-top:30px;">
+                        <h4><span>Our</span> Team<span></span></h4>
                     </div>
                     <h2>We Are The Makers !</h2>
                 </div>
@@ -701,6 +688,15 @@
     $(".btn").click(function () {
         $(".input").val("");
     });
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
 
 </script>
 

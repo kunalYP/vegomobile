@@ -700,7 +700,9 @@ input{
   width: 100%;
 
 }
-
+#mobilenavbar{
+  background: linear-gradient(90deg, #5db6e9,#bff0f0);
+}
 .circle1{
   float:left;
 }

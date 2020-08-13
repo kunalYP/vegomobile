@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
     <title>Vego - Home </title>
 </head>
+
 
 <body>
     <header id="navbar">
@@ -94,7 +96,45 @@
             <a class="navbar-brand" href="#">
                 <img src="images/logo.png" width="85" height="45" alt="">
             </a>
-
+            <header id="sidebar">
+                <div class="w3-sidebar w3-bar-block w3-animate-left fixed" style="display:none;z-index:5;width:80%;"
+                    id="mySidebar">
+                    <button class="w3-bar-item w3-button w3-large" onclick="w3_close()"><i class="fa fa-user-circle-o"
+                            aria-hidden="true" style="margin-right: 1rem;"></i>Hello User !<i class="fa fa-window-close"
+                            style="float: right;" aria-hidden="true"></i></button>
+    
+                    <div class="dropdown-divider"></div>
+                    <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-home" aria-hidden="true"
+                            style="margin-right: 1rem;"></i> Home</a>
+                    <!---<a href="#" class="w3-bar-item w3-button">Your Orders </a> !-->
+    
+                    <div class="dropdown-divider"></div>
+    
+                    <a href="emergencyservice.html" class="w3-bar-item w3-button"><i class="fa fa-exclamation-triangle"
+                            aria-hidden="true" style="margin-right: 1rem;"></i> Emergency Service</a>
+                    <a href="vehcilecomparison.html" class="w3-bar-item w3-button"><i class="fa fa-balance-scale"
+                            aria-hidden="true" style="margin-right: 1rem;"></i>Compare Vehicles</a>
+                    <a href="nearbyshowrooms.html" class="w3-bar-item w3-button"> <i class="fa fa-car" aria-hidden="true"
+                            style="margin-right: 1rem;"></i> Nearby Showrooms & Shops</a>
+                    <a href="nearbygarages.html" class="w3-bar-item w3-button"><i class="fa fa-cogs" aria-hidden="true"
+                            style="margin-right: 1rem;"></i> Nearby Garages & Workshops</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="registergarage.html" class="w3-bar-item w3-button"><i class="fa fa-handshake-o" aria-hidden="true"
+                            style="margin-right: 1rem;"></i>Work With Us</a>
+                    <a href="aboutus.html" class="w3-bar-item w3-button"><i class="fa fa-globe" aria-hidden="true"
+                            style="margin-right: 1rem;"></i> About Us</a>
+                    <a href="contactus.html" class="w3-bar-item w3-button"><i class="fa fa-phone-square" aria-hidden="true"
+                            style="margin-right: 1rem;"></i> Contact Us</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="login.html" class="w3-bar-item w3-button"><i class="fa fa-sign-in" aria-hidden="true"
+                            style="margin-right: 1rem;"></i> Login/Sign Up</a>
+    
+                    <div class="dropdown-divider"></div>
+    
+    
+    
+                </div>
+            </header>
         </nav>
         <div class="container  sticky-top" id="myHeader">
 
@@ -180,6 +220,10 @@
         </div>
 
     </section><!-- End Hero -->
+    <div class="container-fluid heading" id="ourfeatures">
+        <h4><span>Our</span> Features <span></span></h4>
+
+    </div>
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
         <div class="container">
@@ -258,13 +302,17 @@
     </section><!-- End Features Section -->
     <br>
 
-    <section class="pt-4 registerform " id="form">
+    <section class="registerform " id="form">
 
         <div class="container-fluid services">
             <h4><span>Fill This Form To </span> Register <span> Your Garage</span></h4>
             <p> by Filling This form You Will be Working With Us </p>
         </div>
-        <hr style="border-bottom: 2px solid black;">
+        <div class="container-fluid heading" id="ourfeatures" style="margin-bottom:-120px;">
+            <h4><span>Fill This Form To</span> Register <span></span></h4>
+
+        </div>
+        <hr id="borderregister" style="border-bottom: 2px solid black;">
 
         <div class="page-content">
             <div class="form-v4-content">
@@ -292,17 +340,7 @@
                             <input type="text" name="last_name" id="last_name" class="input-text">
                         </div>
                     </div>
-                    <div class="form-row">
-                        <label for="your_email">Residential Address</label>
-                        <input type="text" name="your_email" id="your_email" class="input-text" required
-                            pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
-                    </div>
 
-                    <div class="form-row">
-                        <label for="your_email">Identity Proof : ( Adhar Card , Voter Id , Passport , Pan Card )</label>
-                        <input type="file" name="your_email" id="your_email" class="input-text" required
-                            pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
-                    </div>
 
                     <hr style="border:2px solid #2f73a3;">
                     <h2 class="pt-4">Garage Details</h2>
@@ -334,19 +372,25 @@
                     <div class="form-group">
                         <div class="form-row form-row-1">
                             <label for="first_name">Birth Year : </label>
-                   
+                            <input type="text" name="last_name" id="last_name" class="input-text">
                         </div>
                         <div class="form-row form-row-1">
                             <label for="last_name">No of Workers : </label>
                             <input type="text" name="last_name" id="last_name" class="input-text">
                         </div>
                     </div>
-
-                    <div class="form-row">
+               
                     
-                         
-                     
-            
+                    <div class="form-row">
+                        <label for="last_name">Select The Services That You Provide : </label>
+                        <select multiple class="form-control" id="exampleFormControlSelect2">
+                            <option >service 1</option>
+                            <option  style="margin-top:10px;">service 1</option>
+                            <option  style="margin-top:10px;">service 1</option>
+                            <option  style="margin-top:10px;">service 1</option>
+                        </select>
+
+
                     </div>
                     <hr style="border:2px solid #2f73a3;">
                     <h2 class="pt-4">Garage Location</h2>
@@ -359,8 +403,8 @@
                     <div class="form-row">
                         <iframe id="googlemap"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15073.234307308167!2d77.02138377450119!3d19.181720042435785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f853c6a83fbf800!2sPurna%20Junction!5e0!3m2!1sen!2sin!4v1597152317620!5m2!1sen!2sin"
-                             frameborder="0" style="border:0;" allowfullscreen=""
-                            aria-hidden="false" tabindex="0"></iframe>
+                            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                            tabindex="0"></iframe>
                     </div>
 
                     <hr style="border:2px solid #2f73a3;">
@@ -472,8 +516,8 @@
             </div>
         </div>
     </div>
-    <hr style="border-bottom: 2px solid black;">
-    <footer class="footer text-muted">
+    
+    <footer class="footer text-muted" id="bigfooter">
 
 
         <!-- Footer Links -->
@@ -615,6 +659,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+
 </body>
 
 <script>
@@ -639,6 +684,17 @@
     $(".btn").click(function () {
         $(".input").val("");
     });
+
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+
 </script>
 
 </html>
