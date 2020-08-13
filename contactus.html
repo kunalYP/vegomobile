@@ -14,7 +14,7 @@
     </head>
     
 <body>
-    <header>
+    <header id="navbar">
         <div class="navigation-wrap bg-light start-header start-style">
             <div class="container">
                 <div class="row">
@@ -82,6 +82,82 @@
             </div>
         </div>
     </header>
+    <header id="mobilenavbar">
+        <!-- Just an image -->
+        <nav class="navbar  navbar-light">
+            <button class="navbar-toggler menu-icon" type="button" data-toggle="collapse" aria-expanded="false"
+                onclick="w3_open()" aria-label="Toggle navigation" style="border:none;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" width="85" height="45" alt="">
+            </a>
+
+        </nav>
+        <div class="container  sticky-top" id="myHeader">
+
+            <div id="search">
+                <div class="fixedsearchbox">
+                    <button class="btn-menu">
+                        <i class="fa fa-search" aria-hidden="true" id="searchicon"></i>
+                    </button>
+                    <input id="fixedsearch" type="text" placeholder="Search For Garage, Showroom or Location"
+                        class="search">
+                </div>
+            </div>
+
+
+
+        </div>
+        <header id="sidebar">
+            <div class="w3-sidebar w3-bar-block w3-animate-left fixed" style="display:none;z-index:5;width:80%;"
+                id="mySidebar">
+                <button class="w3-bar-item w3-button w3-large" onclick="w3_close()"><i class="fa fa-user-circle-o"
+                        aria-hidden="true" style="margin-right: 1rem;"></i>Hello User !<i class="fa fa-window-close"
+                        style="float: right;" aria-hidden="true"></i></button>
+
+                <div class="dropdown-divider"></div>
+                <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-home" aria-hidden="true"
+                        style="margin-right: 1rem;"></i> Home</a>
+                <!---<a href="#" class="w3-bar-item w3-button">Your Orders </a> !-->
+
+                <div class="dropdown-divider"></div>
+
+                <a href="emergencyservice.html" class="w3-bar-item w3-button"><i class="fa fa-exclamation-triangle"
+                        aria-hidden="true" style="margin-right: 1rem;"></i> Emergency Service</a>
+                <a href="comparecars.html" class="w3-bar-item w3-button"><i class="fa fa-balance-scale"
+                        aria-hidden="true" style="margin-right: 1rem;"></i>Compare Vehicles</a>
+                <a href="servicing.html" class="w3-bar-item w3-button"> <i class="fa fa-car" aria-hidden="true"
+                        style="margin-right: 1rem;"></i> Nearby Showrooms & Shops</a>
+                <a href="ondoorservice.html" class="w3-bar-item w3-button"><i class="fa fa-cogs" aria-hidden="true"
+                        style="margin-right: 1rem;"></i> Nearby Garages & Workshops</a>
+                <div class="dropdown-divider"></div>
+                <a href="workwithus.html" class="w3-bar-item w3-button"><i class="fa fa-handshake-o" aria-hidden="true"
+                        style="margin-right: 1rem;"></i>Work With Us</a>
+                <a href="aboutus.html" class="w3-bar-item w3-button"><i class="fa fa-globe" aria-hidden="true"
+                        style="margin-right: 1rem;"></i> About Us</a>
+                <a href="contactus.html" class="w3-bar-item w3-button"><i class="fa fa-phone-square" aria-hidden="true"
+                        style="margin-right: 1rem;"></i> Contact Us</a>
+                <div class="dropdown-divider"></div>
+                <a href="login.html" class="w3-bar-item w3-button"><i class="fa fa-sign-in" aria-hidden="true"
+                        style="margin-right: 1rem;"></i> Login/Sign Up</a>
+
+                <div class="dropdown-divider"></div>
+
+
+
+            </div>
+        </header>
+        <section id="ownerlocation">
+            <div class="alert alert-primary" role="alert" data-toggle="modal" data-target="#locationmodal">
+
+                <i style="font-size:20px" class="fa fa-map-marker" aria-hidden="true"></i>
+                <a id="ko" data-toggle="tooltip" title="Add Your Own Location">Purna , Parbhani-431512</a>
+            </div>
+        </section>
+
+    </header>
 
         <!-- ======= Hero Section ======= -->
         <section id="hero" class="d-flex align-items-center">
@@ -129,7 +205,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                <div class="col-lg-6  pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
                     <h1 data-aos="fade-up">Register Your Service Center With Us.</h1>
                     <h2 data-aos="fade-up" class="" data-aos-delay="400">Bring Your Garage Online And Available For
                         Customers For 24 Hr.</h2>
@@ -144,6 +220,7 @@
         </div>
 
     </section><!-- End Hero -->
+    
     <div class="container-fluid services pt-2">
         <h4><span></span> Contact <span>Us</span></h4>
         <p> We cater an array of high-end products for Education and Government Sector </p>
