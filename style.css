@@ -1896,6 +1896,7 @@ color: #fd1111;
   color: white;
   background-color: #A60523;
   width: 50%;
+  
 
 }
 .servicesverticalcards
@@ -2022,8 +2023,8 @@ padding-top: 33px;
 }
 
 .service-cont-btm-one img {
-  padding-top: 5px;
-padding-left: 10px;
+  padding-top: 10px;
+ padding-left: 30%;
   height: 5rem;
   width: 8rem;
 }
