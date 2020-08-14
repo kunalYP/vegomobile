@@ -2292,6 +2292,11 @@ input::-webkit-input-placeholder {
 	padding: 6px 0 0;
 	margin-bottom: 34px;
 }
+#hero {
+  width: 100%;
+    height: 70vh;
+  
+}
 }
 
 
@@ -2671,6 +2676,7 @@ border: none;
 #form{
   padding-top:40px;
 }
+
 }
 
 
