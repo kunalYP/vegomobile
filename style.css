@@ -1997,8 +1997,7 @@ padding-top: 33px;
  
   display: flex;
   justify-content: center;
-  
-
+  width:80%;
 }
 
 .service-cont-btm-two {
@@ -2007,7 +2006,8 @@ padding-top: 33px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-      
+  width:70%;
+  
 
 }
 
@@ -2017,7 +2017,8 @@ padding-top: 33px;
 }
 
 .service-cont-btm-two p {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
+
 }
 
 .service-cont-btm-one img {
@@ -2294,7 +2295,7 @@ input::-webkit-input-placeholder {
 }
 #hero {
   width: 100%;
-    height: 70vh;
+    height: 68vh;
   
 }
 }
