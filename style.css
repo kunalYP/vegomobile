@@ -111,7 +111,7 @@ background-color: white;
 
 .item2 {
   display: inline-block;
-  background-image: linear-gradient(-90deg, #f8d87fbd, #ecdd84f3);
+  background-image: linear-gradient(-90deg, #faecae, #fadfad);
   color: #000000;
   border-radius: 5px;
   width:40%;
@@ -1970,6 +1970,8 @@ padding-top: 3%;
   border: 1px;
   border-style: outset;
   border-right: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .horizontalscrolling{       
   margin-top: 30px ;
@@ -2752,3 +2754,67 @@ border: none;
   #garagecorousel{
     margin-top:-10px;
   }
+
+
+
+  .emergencyinfo {
+
+
+    display: flex;
+    justify-content: center;
+     margin:10px;
+}
+.emergencyinfo img {
+ 
+  
+  height: 6rem;
+  width: 9rem;
+
+}
+.emergencyinfo2 {
+
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10px;
+  padding-top: 20px;
+
+}
+.emergencyinfo2 h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #06192D;
+}
+.emergencyinfo2 .desc {
+  font-size: 0.7rem;
+  color: #06192D;
+}
+.emeregencyrow {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0.1rem;
+  padding-bottom: 10px;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  border: 2px solid rgb(235, 232, 232);
+  box-shadow: 2px 2px 2px rgb(232, 240, 241);
+
+  border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  background-color: #e1eaf3;
+  padding-top: 10px;
+ 
+}
+.seemore{
+  margin-top: -5px;
+  text-align: center;
+  padding: 0;
+  font-size: 0.7rem;
+  margin-bottom: 2px;
+  font-weight: 500;
+  color: white;
+  background-color: #A60523;
+  width: 50%;
+}
