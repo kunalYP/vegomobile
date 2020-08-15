@@ -1,4 +1,4 @@
-   
+
 #corouselhomepage
 {
   padding-top: 65px;
@@ -92,11 +92,12 @@ background-color: white;
 
 .item {
   display: inline-block;
-  background: linear-gradient(90deg, #d5f1f8e8,#bddeeb81);
+  background-image: linear-gradient(-90deg, #d5f1f8e8,#bddeeb81);
   color: #000000;
   border-radius: 5px;
   width:40%;
   height:45%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .item img {
@@ -110,11 +111,13 @@ background-color: white;
 
 .item2 {
   display: inline-block;
-  background: linear-gradient(90deg, hsla(12, 97%, 75%, 0.767),hsla(0, 89%, 75%, 0.788));
+  background-image: linear-gradient(-90deg, #f8d87fbd, #ecdd84f3);
   color: #000000;
   border-radius: 5px;
   width:40%;
   height:45%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .item2 img {
@@ -250,8 +253,8 @@ div.card {
         .contactus {
             padding-top: 70px;
             padding-bottom: 70px;
-            background: linear-gradient(90deg, #050004,#790409);
-            color: white;
+      background-image: linear-gradient(-90deg, #A60523, #db0e37);
+                  color: white;
         }
             .contactus h3 {
                 font-weight: 600;
@@ -716,7 +719,7 @@ input:focus {
   padding-top: 70px;
   padding-bottom: 70px;
 
-  background: linear-gradient(90deg, #057fe2,#6905ec);
+  background-image: linear-gradient(90deg,rgb(46, 46, 46),rgb(68, 68, 68));
   color: white;
 }
   .garagecontact h3 {
@@ -940,6 +943,7 @@ input:focus {
     padding: 20px;
     background: #f6f6f6;
     transition: ease-in-out 0.3s;
+    
   }
   
   .features .icon-box i {
@@ -2299,6 +2303,18 @@ input::-webkit-input-placeholder {
     height: 68vh;
   
 }
+#showroomcorousel{
+  margin-top: -10px;
+}
+.sv{
+width: 90%;
+margin-bottom:30px;
+margin-top:30px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.showroominfo{
+  display: none;
+}
 }
 
 
@@ -2678,7 +2694,12 @@ border: none;
 #form{
   padding-top:40px;
 }
-
+#searchinshowroom{
+  display: none;
+}
+#vehiclesinshowroom{
+  display: none;
+}
 }
 
 
@@ -2727,4 +2748,7 @@ border: none;
     right: 0;
     margin: 0 auto;
   
+  }
+  #garagecorousel{
+    margin-top:-10px;
   }
