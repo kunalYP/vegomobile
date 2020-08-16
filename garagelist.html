@@ -21,7 +21,7 @@
         <nav class="navbar navbar-light navbarcolor">
             <button class="navbar-toggler menu-icon" type="button" data-toggle="collapse" aria-expanded="false"
                 onclick="w3_open()" aria-label="Toggle navigation" style="border:none;">
-         
+
             </button>
 
             <a class="navbar-brand" href="#">
@@ -31,22 +31,24 @@
         </nav>
         <div class="container sticky-top" id="myHeader">
 
-            <div  id="search">
+            <div id="search">
                 <div class="fixedsearchbox">
                     <button class="btn-menu">
                         <i class="fa fa-search" aria-hidden="true" id="searchicon"></i>
                     </button>
                     <input id="fixedsearch" type="text" placeholder="Search For Garage or Service Center"
-                         class="search">
+                        class="search">
                 </div>
             </div>
 
 
 
         </div>
-    
-     
+
+
     </header>
+
+
 
     <header id="navbar">
         <div class="navigation-wrap bg-light start-header start-style">
@@ -202,13 +204,40 @@
     </div>
 
 
+
     <section id="garagescardsmobile">
         <div class="container-fluid heading">
             <h4><span>Select The </span>Garage <span></span></h4>
         </div>
+
+        <section id="ownerlocation">
+            <div class="alert alert-light" role="alert" style="float:right">
+                <button onclick="w3_open()" class="btn btn-outline-dark btn-sm" style="width:110%"> filters <i class="fa fa-angle-down"
+                        aria-hidden="true"></i></button>
+            </div>
+        <div style="float:left;font-weight:900;font-size:13px;margin-top:20px;margin-left:10px">
+            <p>20 garages Found<p>
+        </div>
+        </section>
+    
+        <header id="sidebar ">
+            <div class="w3-sidebar w3-bar-block w3-animate-bottom fixed" style="display:none;z-index:5;width:100%;"
+                id="mySidebar">
+                <button class="w3-bar-item w3-button w3-large" onclick="w3_close()"><i class="fa fa-filter"
+                        aria-hidden="true"></i> Filters<i class="fa fa-window-close" style="float: right;"
+                        aria-hidden="true"></i></button>
+                <div class="filters text-center">
+                    <button style="border-radius: 12px;margin-top:10px;margin-right:10px" class="btn btn-outline-dark btn-sm"> Sort By Ratings</button>
+                    <button style="border-radius: 12px;margin-top:10px" class="btn btn-outline-dark btn-sm"> Sort By Delievery Price</button>
+                    <button style="border-radius: 12px;margin-top:10px" class="btn btn-outline-dark btn-sm"> Sort By Distance From You</button>
+ 
+                </div>
+
+            </div>
+        </header>
         <div class="servicesverticalcards">
-            <a  style="text-decoration: none; color:black;" data-toggle="modal"
-            data-target="#confirm" data-name="Garage 1">
+            <a style="text-decoration: none; color:black;" data-toggle="modal" data-target="#confirm"
+                data-name="Garage 1">
                 <div class="row" id="garagescardsrow">
 
                     <div class="col garage-cont-btm-one">
@@ -222,14 +251,15 @@
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star"></span>
                             <span class="fa fa-star"></span>
-                         
+
                         </p>
                         <div id="distance">
-                        <span class="distance">2.5 KM</span>
-                     
+                            <span class="distance">2.5 KM</span>
+
                         </div>
                         <div class="price">
-                          <span style="font-size:10px;">Delivery Charge : </span><span class="deleverycharge">₹50</span>
+                            <span style="font-size:10px;">Delivery Charge : </span><span
+                                class="deleverycharge">₹50</span>
                         </div>
                         <a class="service-link stretched-link" href="">
                             <div class="seeinfo">
@@ -240,8 +270,8 @@
                     </div>
                 </div>
             </a>
-            <a  style="text-decoration: none; color:black;" data-toggle="modal"
-            data-target="#confirm" data-name="Garage 2">
+            <a style="text-decoration: none; color:black;" data-toggle="modal" data-target="#confirm"
+                data-name="Garage 2">
                 <div class="row" id="garagescardsrow">
 
                     <div class="col garage-cont-btm-one">
@@ -255,14 +285,15 @@
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star"></span>
                             <span class="fa fa-star"></span>
-                         
+
                         </p>
                         <div id="distance">
-                        <span class="distance">2.5 KM</span>
-                     
+                            <span class="distance">2.5 KM</span>
+
                         </div>
                         <div class="price">
-                            <span style="font-size:10px;">Delivery Charge : </span><span class="deleverycharge">₹50</span>
+                            <span style="font-size:10px;">Delivery Charge : </span><span
+                                class="deleverycharge">₹50</span>
                         </div>
                         <a class="service-link stretched-link" href="">
                             <div class="seeinfo">
@@ -273,8 +304,8 @@
                     </div>
                 </div>
             </a>
-            <a style="text-decoration: none; color:black;" data-toggle="modal"
-            data-target="#confirm" data-name="Garage 3">
+            <a style="text-decoration: none; color:black;" data-toggle="modal" data-target="#confirm"
+                data-name="Garage 3">
                 <div class="row" id="garagescardsrow">
 
                     <div class="col garage-cont-btm-one">
@@ -288,14 +319,15 @@
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star"></span>
                             <span class="fa fa-star"></span>
-                         
+
                         </p>
                         <div id="distance">
-                        <span class="distance">2.5 KM</span>
-                     
+                            <span class="distance">2.5 KM</span>
+
                         </div>
                         <div class="price">
-                            <span style="font-size:10px;">Delivery Charge : </span><span class="deleverycharge">₹50</span>
+                            <span style="font-size:10px;">Delivery Charge : </span><span
+                                class="deleverycharge">₹50</span>
                         </div>
                         <a class="service-link stretched-link" href="">
                             <div class="seeinfo">
@@ -306,8 +338,8 @@
                     </div>
                 </div>
             </a>
-            <a  style="text-decoration: none; color:black;" data-toggle="modal"
-            data-target="#confirm" data-name="Garage 4">
+            <a style="text-decoration: none; color:black;" data-toggle="modal" data-target="#confirm"
+                data-name="Garage 4">
                 <div class="row" id="garagescardsrow">
 
                     <div class="col garage-cont-btm-one">
@@ -321,14 +353,15 @@
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star"></span>
                             <span class="fa fa-star"></span>
-                         
+
                         </p>
                         <div id="distance">
-                        <span class="distance">2.5 KM</span>
-                     
+                            <span class="distance">2.5 KM</span>
+
                         </div>
                         <div class="price">
-                          <span style="font-size:10px;">Delivery Charge : </span><span class="deleverycharge">₹50</span>
+                            <span style="font-size:10px;">Delivery Charge : </span><span
+                                class="deleverycharge">₹50</span>
                         </div>
                         <a class="service-link stretched-link" href="">
                             <div class="seeinfo">
@@ -416,7 +449,7 @@
                 </label>
                 <label>
                     <input type="radio" name="product" class="card-input-element" data-toggle="modal"
-                        data-target="#confirm" data-name="Garage 3"/>
+                        data-target="#confirm" data-name="Garage 3" />
 
                     <div class="card card-input" style="width: 18rem;">
                         <div class="inner">
@@ -444,7 +477,7 @@
                 </label>
                 <label>
                     <input type="radio" name="product" class="card-input-element" data-toggle="modal"
-                        data-target="#confirm" data-name="Garage 4"/>
+                        data-target="#confirm" data-name="Garage 4" />
 
                     <div class="card card-input" style="width: 18rem;">
                         <div class="inner">
@@ -721,8 +754,8 @@
                 <div class="modal-body">
 
                     <label for="" style="font-weight:500;">Continue With </label>
-                        <input type="text" id="name" style="border: none;font-weight:500;">
-                
+                    <input type="text" id="name" style="border: none;font-weight:500;">
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
@@ -766,21 +799,21 @@
 
         $('#confirm').on('show.bs.modal', function (e) {
             var button = $(e.relatedTarget)
-             var id = button.data('name');
-             var modal = $(this)
-             modal.find('.modal-body #name').val(id);
+            var id = button.data('name');
+            var modal = $(this)
+            modal.find('.modal-body #name').val(id);
 
 
-       })
-       function w3_open() {
-        document.getElementById("mySidebar").style.display = "block";
-        document.getElementById("myOverlay").style.display = "block";
-    }
+        })
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
 
-    function w3_close() {
-        document.getElementById("mySidebar").style.display = "none";
-        document.getElementById("myOverlay").style.display = "none";
-    }
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
 
     </script>
 </body>
