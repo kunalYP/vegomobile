@@ -85,7 +85,7 @@
     </header>
 
 
-    
+
     <header id="mobilenavbar">
         <!-- Just an image -->
         <nav class="navbar navbar-light navbarcolor">
@@ -101,20 +101,20 @@
         </nav>
         <div class="container sticky-top" id="myHeader">
 
-            <div  id="search">
+            <div id="search">
                 <div class="fixedsearchbox">
                     <button class="btn-menu">
                         <i class="fa fa-search" aria-hidden="true" id="searchicon"></i>
                     </button>
                     <input id="fixedsearch" type="text" placeholder="Search For Garage or Service Center"
-                         class="search">
+                        class="search">
                 </div>
             </div>
 
 
 
         </div>
-    
+
         <header id="sidebar ">
             <div class="w3-sidebar w3-bar-block w3-animate-left fixed" style="display:none;z-index:5;width:80%;"
                 id="mySidebar">
@@ -138,8 +138,8 @@
                 <a href="nearbygarages.html" class="w3-bar-item w3-button"><i class="fa fa-cogs" aria-hidden="true"
                         style="margin-right: 1rem;"></i> Nearby Garages & Workshops</a>
                 <div class="dropdown-divider"></div>
-                <a href="workwithus.html" class="w3-bar-item w3-button"><i class="fa fa-handshake-o"
-                        aria-hidden="true" style="margin-right: 1rem;"></i>Work With Us</a>
+                <a href="workwithus.html" class="w3-bar-item w3-button"><i class="fa fa-handshake-o" aria-hidden="true"
+                        style="margin-right: 1rem;"></i>Work With Us</a>
                 <a href="aboutus.html" class="w3-bar-item w3-button"><i class="fa fa-globe" aria-hidden="true"
                         style="margin-right: 1rem;"></i> About Us</a>
                 <a href="contactus.html" class="w3-bar-item w3-button"><i class="fa fa-phone-square" aria-hidden="true"
@@ -178,18 +178,47 @@
         </div>
 
     </section>
-        ---> 
+        --->
 
     <section id="showroomscardsmobile">
         <div class="container heading" style="margin-top:20px">
             <h4><span></span> Garages <span>In Your City</span></h4>
         </div>
+
+        <section id="filteroption">
+            <div class="alert alert-light" role="alert" style="float:right">
+                <button onclick="w3_openfilter()" class="btn btn-outline-dark btn-sm" style="width:110%"> filters <i
+                        class="fa fa-angle-down" aria-hidden="true"></i></button>
+            </div>
+            <div style="float:left;font-weight:900;font-size:13px;margin-top:15px;margin-left:10px">
+                <p>20 Garages Found
+                <p>
+            </div>
+        </section>
+
+ 
+        <header id="sidebar ">
+            <div class="w3-sidebar w3-bar-block w3-animate-bottom fixed" style="display:none;z-index:5;width:100%;"
+                id="filtersidebar">
+                <button class="w3-bar-item w3-button w3-large" onclick="w3_closefilter()"><i class="fa fa-filter"
+                        aria-hidden="true"></i> Filters<i class="fa fa-window-close" style="float: right;"
+                        aria-hidden="true"></i></button>
+                <div class="filters text-center">
+                    <button style="border-radius: 12px;margin-top:10px;margin-right:10px" class="btn btn-outline-dark btn-sm"> Sort By Ratings</button>
+                    <button style="border-radius: 12px;margin-top:10px;margin-right:10px" class="btn btn-outline-dark btn-sm"> Show only Authorized</button>
+
+                    <button style="border-radius: 12px;margin-top:10px" class="btn btn-outline-dark btn-sm"> Sort By Distance From You</button>
+ 
+                </div>
+
+            </div>
+        </header>
+
+
+
+
         <div class="servicesverticalcards">
-
-
-
-            <a href="garageinfo.html" style="text-decoration: none; color:black;"
-                 id="showroomcardrow">
+            <a href="garageinfo.html" style="text-decoration: none; color:black;" id="showroomcardrow">
                 <div class="row" id="showroomscardsrow" style="padding-bottom:0px;">
 
                     <div class="col showroom-cont-btm-one">
@@ -221,8 +250,8 @@
                     </div>
                 </div>
             </a>
-            <a href="garageinfo.html" style="text-decoration: none; color:black;"
-                data-name="Garage 1" id="showroomcardrow">
+            <a href="garageinfo.html" style="text-decoration: none; color:black;" data-name="Garage 1"
+                id="showroomcardrow">
                 <div class="row" id="showroomscardsrow" style="padding-bottom:0px;">
 
                     <div class="col showroom-cont-btm-one">
@@ -254,8 +283,8 @@
                     </div>
                 </div>
             </a>
-            <a href="garageinfo.html" style="text-decoration: none; color:black;"
-                data-name="Garage 1" id="showroomcardrow">
+            <a href="garageinfo.html" style="text-decoration: none; color:black;" data-name="Garage 1"
+                id="showroomcardrow">
                 <div class="row" id="showroomscardsrow" style="padding-bottom:0px;">
 
                     <div class="col showroom-cont-btm-one">
@@ -287,8 +316,8 @@
                     </div>
                 </div>
             </a>
-            <a href="garageinfo.html" style="text-decoration: none; color:black;"
-                data-name="Garage 1" id="showroomcardrow">
+            <a href="garageinfo.html" style="text-decoration: none; color:black;" data-name="Garage 1"
+                id="showroomcardrow">
                 <div class="row" id="showroomscardsrow" style="padding-bottom:0px;">
 
                     <div class="col showroom-cont-btm-one">
@@ -320,138 +349,138 @@
                     </div>
                 </div>
             </a>
-            <a style="text-decoration: none; color:black;" href="garageinfo.html"
-            data-name="Garage 1" id="showroomcardrow">
-            <div class="row" id="showroomscardsrow" style="padding-bottom:0px;">
+            <a style="text-decoration: none; color:black;" href="garageinfo.html" data-name="Garage 1"
+                id="showroomcardrow">
+                <div class="row" id="showroomscardsrow" style="padding-bottom:0px;">
 
-                <div class="col showroom-cont-btm-one">
-                    <img src="images/garage1 (1).jpg" alt="...">
-                </div>
-                <div class="col showroom-cont-btm-two">
-                    <h3>Garage 1</h3>
-                    <p class="showroomratings">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-
-                    </p>
-
-                    <div id="distanceshowroom">
-                        <span class="distanceshowroom">2.5 KM</span>
+                    <div class="col showroom-cont-btm-one">
+                        <img src="images/garage1 (1).jpg" alt="...">
                     </div>
+                    <div class="col showroom-cont-btm-two">
+                        <h3>Garage 1</h3>
+                        <p class="showroomratings">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
 
-                    <div id="brandimageshowroom">
+                        </p>
 
-                        <p class="desc" style="padding-top: 5px;">Kunal Niwas , Adarsh Colony , Purna ,
-                            dist.Parbhani</p>
+                        <div id="distanceshowroom">
+                            <span class="distanceshowroom">2.5 KM</span>
+                        </div>
+
+                        <div id="brandimageshowroom">
+
+                            <p class="desc" style="padding-top: 5px;">Kunal Niwas , Adarsh Colony , Purna ,
+                                dist.Parbhani</p>
+                        </div>
+
+
+
                     </div>
-
-
-
                 </div>
-            </div>
-        </a>
-        <a style="text-decoration: none; color:black;" href="garageinfo.html"
-            data-name="Garage 1" id="showroomcardrow">
-            <div class="row" id="showroomscardsrow" style="padding-bottom:0px;">
+            </a>
+            <a style="text-decoration: none; color:black;" href="garageinfo.html" data-name="Garage 1"
+                id="showroomcardrow">
+                <div class="row" id="showroomscardsrow" style="padding-bottom:0px;">
 
-                <div class="col showroom-cont-btm-one">
-                    <img src="images/garage1 (4).jpg" alt="...">
-                </div>
-                <div class="col showroom-cont-btm-two">
-                    <h3>Garage 4</h3>
-                    <p class="showroomratings">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-
-                    </p>
-
-                    <div id="distanceshowroom">
-                        <span class="distanceshowroom">2.5 KM</span>
+                    <div class="col showroom-cont-btm-one">
+                        <img src="images/garage1 (4).jpg" alt="...">
                     </div>
+                    <div class="col showroom-cont-btm-two">
+                        <h3>Garage 4</h3>
+                        <p class="showroomratings">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
 
-                    <div id="brandimageshowroom">
+                        </p>
 
-                        <p class="desc" style="padding-top: 5px;">Kunal Niwas , Adarsh Colony , Purna ,
-                            dist.Parbhani</p>
+                        <div id="distanceshowroom">
+                            <span class="distanceshowroom">2.5 KM</span>
+                        </div>
+
+                        <div id="brandimageshowroom">
+
+                            <p class="desc" style="padding-top: 5px;">Kunal Niwas , Adarsh Colony , Purna ,
+                                dist.Parbhani</p>
+                        </div>
+
+
+
                     </div>
-
-
-
                 </div>
-            </div>
-        </a>
-        <a style="text-decoration: none; color:black;" href="garageinfo.html"
-            data-name="Garage 1" id="showroomcardrow">
-            <div class="row" id="showroomscardsrow" style="padding-bottom:0px;">
+            </a>
+            <a style="text-decoration: none; color:black;" href="garageinfo.html" data-name="Garage 1"
+                id="showroomcardrow">
+                <div class="row" id="showroomscardsrow" style="padding-bottom:0px;">
 
-                <div class="col showroom-cont-btm-one">
-                    <img src="images/garage1 (2).jpg" alt="...">
-                </div>
-                <div class="col showroom-cont-btm-two">
-                    <h3>Garage 2</h3>
-                    <p class="showroomratings">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-
-                    </p>
-
-                    <div id="distanceshowroom">
-                        <span class="distanceshowroom">2.5 KM</span>
+                    <div class="col showroom-cont-btm-one">
+                        <img src="images/garage1 (2).jpg" alt="...">
                     </div>
+                    <div class="col showroom-cont-btm-two">
+                        <h3>Garage 2</h3>
+                        <p class="showroomratings">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
 
-                    <div id="brandimageshowroom">
+                        </p>
 
-                        <p class="desc" style="padding-top: 5px;">Kunal Niwas , Adarsh Colony , Purna ,
-                            dist.Parbhani</p>
+                        <div id="distanceshowroom">
+                            <span class="distanceshowroom">2.5 KM</span>
+                        </div>
+
+                        <div id="brandimageshowroom">
+
+                            <p class="desc" style="padding-top: 5px;">Kunal Niwas , Adarsh Colony , Purna ,
+                                dist.Parbhani</p>
+                        </div>
+
+
+
                     </div>
-
-
-
                 </div>
-            </div>
-        </a>
-        <a style="text-decoration: none; color:black;" href="garageinfo.html"
-            data-name="Garage 1" id="showroomcardrow">
-            <div class="row" id="showroomscardsrow" style="padding-bottom:0px;">
+            </a>
+            <a style="text-decoration: none; color:black;" href="garageinfo.html" data-name="Garage 1"
+                id="showroomcardrow">
+                <div class="row" id="showroomscardsrow" style="padding-bottom:0px;">
 
-                <div class="col showroom-cont-btm-one">
-                    <img src="images/garage1 (3).jpg" alt="...">
-                </div>
-                <div class="col showroom-cont-btm-two">
-                    <h3>Garage 3</h3>
-                    <p class="showroomratings">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-
-                    </p>
-
-                    <div id="distanceshowroom">
-                        <span class="distanceshowroom">2.5 KM</span>
+                    <div class="col showroom-cont-btm-one">
+                        <img src="images/garage1 (3).jpg" alt="...">
                     </div>
+                    <div class="col showroom-cont-btm-two">
+                        <h3>Garage 3</h3>
+                        <p class="showroomratings">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
 
-                    <div id="brandimageshowroom">
+                        </p>
 
-                        <p class="desc" style="padding-top: 5px;">Kunal Niwas , Adarsh Colony , Purna ,
-                            dist.Parbhani</p>
+                        <div id="distanceshowroom">
+                            <span class="distanceshowroom">2.5 KM</span>
+                        </div>
+
+                        <div id="brandimageshowroom">
+
+                            <p class="desc" style="padding-top: 5px;">Kunal Niwas , Adarsh Colony , Purna ,
+                                dist.Parbhani</p>
+                        </div>
+
+
+
                     </div>
-
-
-
                 </div>
-            </div>
-        </a>
+            </a>
 
 
 
@@ -1050,13 +1079,13 @@
             $(".input").val("");
         });
 
-        
+
 
         window.onscroll = function () { myFunction() };
 
         var header = document.getElementById("myHeader");
         var sticky = header.offsetTop;
-    
+
         function myFunction() {
             if (window.pageYOffset > sticky) {
                 header.classList.add("sticky");
@@ -1068,12 +1097,20 @@
             document.getElementById("mySidebar").style.display = "block";
             document.getElementById("myOverlay").style.display = "block";
         }
-    
+
         function w3_close() {
             document.getElementById("mySidebar").style.display = "none";
             document.getElementById("myOverlay").style.display = "none";
         }
-    
+        function w3_openfilter() {
+            document.getElementById("filtersidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_closefilter() {
+            document.getElementById("filtersidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
     </script>
 </body>
 
