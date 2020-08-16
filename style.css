@@ -111,7 +111,7 @@ background-color: white;
 
 .item2 {
   display: inline-block;
-  background-image: linear-gradient(-90deg, #faecae, #fadfad);
+  background-image: linear-gradient(-90deg, #f3ece1, #f3ece1);
   color: #000000;
   border-radius: 5px;
   width:40%;
