@@ -2780,7 +2780,7 @@ border: none;
   flex-direction: column;
   margin-left: 10px;
   padding-top: 20px;
-
+width:90%;
 }
 .emergencyinfo2 h3 {
   font-size: 1.2rem;
@@ -2808,6 +2808,26 @@ border: none;
   padding-top: 10px;
  
 }
+
+.emeregencyrow2 {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0.1rem;
+  padding-bottom: 10px;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  border: 2px solid rgb(235, 232, 232);
+  box-shadow: 2px 2px 2px rgb(232, 240, 241);
+
+  border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  background-color: #f3ece1;
+  padding-top: 10px;
+ 
+}
+
+
 .seemore{
   margin-top: -5px;
   text-align: center;
