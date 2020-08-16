@@ -325,10 +325,19 @@
                             pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
                     </div>
                     <div class="form-row">
+                        <label for="your_email">Select Type :</label>
+                        <select class="custom-select ">
+                            <option selected>Authorized Dealer</option>
+                            <option value="1">Local Dealer</option>
+                   
+                        </select>
+                    </div>
+                    <div class="form-row pt-4">
                         <label for="your_email">Brand :</label>
                         <input type="text" name="your_email" id="your_email" class="input-text" required
                             pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
                     </div>
+              
                     <div class="form-row">
                         <label for="your_email">Select Type :</label>
                         <select class="custom-select ">
@@ -354,7 +363,7 @@
                     </div>
 
                     <div class="form-row pt-4">
-                        <label for="your_email">Showroom Photos: ( Min : 6 & Max: 10 )</label>
+                        <label for="your_email">Showroom Photo: ( Min : 6 & Max: 10 )</label>
                         <input type="file" name="your_email" id="your_email" class="input-text" required
                             pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
                     </div>
@@ -368,7 +377,20 @@
                             <input type="text" name="last_name" id="last_name" class="input-text">
                         </div>
                     </div>
-
+                    <div class="form-group">
+                        <div class="form-row form-row-1">
+                            <label for="first_name">Opening Time : </label>
+                            <input type="text" name="first_name" id="first_name" class="input-text">
+                        </div>
+                        <div class="form-row form-row-1">
+                            <label for="last_name">Closing Time : </label>
+                            <input type="text" name="last_name" id="last_name" class="input-text">
+                        </div>
+                        <div class="form-row form-row-1">
+                            <label for="last_name">Holiday : </label>
+                            <input type="text" name="last_name" id="last_name" class="input-text">
+                        </div>
+                    </div>
 
                     <hr style="border:2px solid #2f73a3;">
                     <h2 class="pt-4">Showroom Location</h2>

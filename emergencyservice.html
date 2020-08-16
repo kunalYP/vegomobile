@@ -86,8 +86,7 @@
     <header id="mobilenavbar">
         <!-- Just an image -->
         <nav class="navbar navbar-light bg-light">
-            <button 
-                onclick="w3_open()" aria-label="Toggle navigation" style="border:none;">
+            <button onclick="w3_open()" aria-label="Toggle navigation" style="border:none;">
 
             </button>
             <a class="navbar-brand" href="#">
@@ -345,8 +344,9 @@
 
     </section>
     <div class="submitbutton">
-        <a href="garagelist.html"> <button class="btn btn-primary btn-block submit mx-auto">Get Nearby
+        <a href="garagelist.html"> <button id="getlist" class="btn btn-primary btn-block submit mx-auto">Get Nearby
                 Garages</button></a>
+        <button id="next" class="btn btn-primary btn-block submit mx-auto">Next</button>
     </div>
 
 
@@ -384,6 +384,19 @@
 
         $(".btn").click(function () {
             $(".input").val("");
+        });
+        $("#locationbox").hide();
+        $("#getlist").hide();
+        $(document).ready(function () {
+
+       
+            $("#next").click(function () {
+                $("#selectvehicle").hide();
+                $("#selectvehiclemobile").hide();
+                $("#next").hide();
+                $("#locationbox").show();
+                $("#getlist").show();
+            });
         });
     </script>
 </body>
