@@ -727,8 +727,8 @@ float:right;
 	vertical-align:middle;
 font-size:13px;
   text-align:center;
-  padding-left:5px;
-  padding-top:8px;
+  padding-left:4px;
+  padding-top:7px;
 }
 
 .comparebutton{
@@ -737,7 +737,7 @@ font-size:13px;
   font-weight: 500;
 }
 .comparebuttondiv{
-  margin-top:19px;
-  margin-left:9px;
+  margin-top:18px;
+  margin-left:8px;
   margin-right:10px;
 }
