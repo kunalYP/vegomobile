@@ -169,10 +169,10 @@
     <section id="servicesmobile">
         <div class="container text-center" id="servicescontainer">
             <div class="row" id="servicerow">
-                <div class="col" id="servicecol" onclick="location.href='emergencyservice.html';" data-toggle="tooltip"
+                <div class="col loading" id="servicecol" onclick="location.href='emergencyservice.html';" data-toggle="tooltip"
                     title="Get Your Vehicle Repaired Anywhere in 10 mins">
-                    <img src="images/service1.png" class="img1" alt="...">
-                    <div class="servicetext">Emergency service</div>
+                    <img src="images/service1.png" class="img1 " alt="...">
+                    <div class="servicetext ">Emergency service</div>
 
                 </div>
                 <div class="col s2" id="servicecol" onclick="location.href='vehcilecomparison.html';">
@@ -1449,6 +1449,24 @@
     setTimeout(function () {
         $('#ko').tooltip("hide");
     }, 10000);
+
+
+    var readyStateCheckInterval = setInterval(function() {
+        if (document.readyState === "complete") {
+          
+                const title = document.querySelector(".col"); 
+
+          
+                // Remove the 'loading' class 
+                title.classList.remove("loading"); 
+             
+            
+
+        
+        }
+    }, 10);
+  
+    
 </script>
 
 </html>
